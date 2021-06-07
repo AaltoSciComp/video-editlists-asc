@@ -150,13 +150,110 @@
 
 - output: day1-connecting.mkv
   title: Connecting to the cluster (day 2 prep)
-  description: >-
+  description: >
      Tomorrow, we will go straight to using the cluster.  You need to
      get connected already.  Here, we do a short demo and discussion and then
      split into breakout rooms for you to get help.
+
+     https://scicomp.aalto.fi/triton/tut/connecting/
 
   editlist:
     - start: 3:33:35
     - -: Connecting
     - 3:43:04: Feedback of the day
     - end: 3:43:38
+
+
+
+### Day 2
+
+- output: day2-icebreaker.mkv
+  title: 
+  description: >
+     ..
+
+  editlist:
+    - start: 
+    - end: 
+
+
+- output: day2-intro.mkv
+  title: 
+  description: >
+     ..
+
+  editlist:
+    - start: 
+    - end: 
+
+
+- output: day2-connecting.mkv
+  title: 
+  description: >
+     ..
+
+  editlist:
+    - start: 
+    - end: 
+
+
+- output: day2-applications.mkv
+  title: 
+  description: >
+     ..
+
+  editlist:
+    - start: 
+    - end: 
+
+
+- output: day2-storage.mkv
+  title: 
+  description: >
+     ..
+
+  editlist:
+    - start: 
+    - end: 
+
+
+- output: day2-interactive.mkv
+  title: 
+  description: >
+     ..
+
+  editlist:
+    - start: 
+    - end: 
+
+
+- output: day2-serial.mkv
+  title: 
+  description: >
+     ..
+
+  editlist:
+    - start: 
+    - end: 
+
+
+- output: day2-monitoring.mkv
+  title: 
+  description: >
+     ..
+
+  editlist:
+    - start: 
+    - end: 
+
+
+#- output: day2-.mkv
+#  title: 
+#  description: >
+#     ..
+#
+#  editlist:
+#    - start: 
+#    - end: 
+
+
