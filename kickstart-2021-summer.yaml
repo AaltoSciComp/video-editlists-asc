@@ -24,18 +24,26 @@
   - end: 20:09
 
 - output: day1-intro.mkv
-  title: Introduction day 1
+  title: Day 1 introduction
   description: >-
-     ..
+     This is an introduction to the overall format of the workshop and
+     practical matters.
+
+     https://scicomp.aalto.fi/training/scip/summer-kickstart/intro/
 
   editlist:
   - start: 20:09
   - end: 31:13
 
 - output: day1-hpc-crash-course.mkv
-  title: 
-  description: >-
-     ..
+  title: HPC crash course
+  description: >
+     This is a crash course on concepts related to high-performance
+     computing.  We cover a lot of concepts here, but we don\'t go in
+     depth.  We will see how this actually applies on days 2 and 3.
+
+     https://users.aalto.fi/degtyai1/SCiP2021_kick.HPC_crash_course.2021-06-04.pdf
+
 
   editlist:
     - start: 11:05
@@ -45,17 +53,34 @@
     - end: 1:05:11
 
 - output: day1-video-summaries.mkv
-  title:
-  description: >-
-    ..
+  title: Prerequisite video summaries
+  description: >
+    One of our "preparations" was to request that you watch two videos
+    from our winter kickstart course (Jan-Feb 2021).  Here, we explain
+    a little bit about why we asked you to do these and what the
+    contents of the videos are.
+
+    The two videos are:
+    Basic Linux shell and scripting: https://www.youtube.com/watch?v=ESXLbtaxpdI
+    Scientific Computing Workflows: https://www.youtube.com/watch?v=ExFbc5EikU0
+
+    Material (not covered in the video): https://scicomp.aalto.fi/training/scip/summer-kickstart/video-summary/
+
   editlist:
     - start: 1:05:10
     - end: 1:08:21
 
 - output: day1-csc-resources.mkv
-  title: 
+  title: CSC resources
   description: >-
-     ..
+     This talk covers the type of resources available at CSC the IT
+     Center for Science, Finland.
+
+     https://csc.fi
+     https://docs.csc.fi
+     https://research.csc.fi
+
+     Slides: https://kannu.csc.fi/s/3K8q93XSwtSgHEa
 
   editlist:
     - start: 1:20:33
@@ -69,11 +94,20 @@
     - end: 2:20:32
 
 - output: day1-git-crash-course.mkv
-  title: 
+  title: Git crash course
   description: >-
-     ..
+     A version control system tracks changes to files, and is very
+     important in most computational work.  Despite being so important,
+     it often isn\'t taught.
 
-     https://coderefinery.org/
+     We don\'t try to teach it here: we don\'t have time.  Instead, we
+     try to give a good enough intro so that you can follow along
+     minimally when we use git tomorrow, and give you enough of an
+     example and discussion so that you are well equipped to learn more later.
+
+     CodeRefinery (https://coderefinery.org/) provides good courses
+     for git and more multiple times a year.  Their latest course is
+     online, just like this course.
 
   editlist:
     - start: 2:30:46
@@ -92,9 +126,14 @@
     - end: 3:13:12
 
 - output: day1-your-future-in-scicomp.mkv
-  title: 
+  title: Your future in scientific computing.
   description: >-
-     ..
+     This course is just your starting point.  Here, we go over what
+     you might expect for the future: what other kinds of courses
+     might be relevant, how you might need to continue your education,
+     and what kind of support you can find.
+
+     https://scicomp.aalto.fi/training/scip/summer-kickstart/future/
 
   editlist:
     - start: 3:23:08
@@ -106,9 +145,11 @@
     - end: 3:33:30
 
 - output: day1-connecting.mkv
-  title: 
+  title: Connecting to the cluster (day 2 prep)
   description: >-
-     ..
+     Tomorrow, we will go straight to using the cluster.  You need to
+     get connected already.  Here, we do a short demo and discussion and then
+     split into breakout rooms for you to get help.
 
   editlist:
     - start: 3:33:35
