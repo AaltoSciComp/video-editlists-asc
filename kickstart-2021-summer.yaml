@@ -38,6 +38,19 @@
      ..
 
   editlist:
+    - start: 11:05
+    - end: 31:30
+    - start: 33:04
+    - 1:04:40: Summary
+    - end: 1:05:11
+
+- output: day1-video-summaries.mkv
+  title:
+  description: >-
+    ..
+  editlist:
+    - start: 1:05:10
+    - end: 1:08:21
 
 - output: day1-csc-resources.mkv
   title: 
@@ -45,13 +58,38 @@
      ..
 
   editlist:
+    - start: 1:20:33
+    - -: Introduction of the speaker
+    - 1:22:01: Begin
+    - 1:26:07: What is CSC?
+    - 1:39:40: CSC computing services
+    - 2:05:24: CSC data management services
+    - 2:11:10: Support services
+    - 2:14:18: Getting started with CSC services
+    - end: 2:20:32
 
 - output: day1-git-crash-course.mkv
   title: 
   description: >-
      ..
 
+     https://coderefinery.org/
+
   editlist:
+    - start: 2:30:46
+    - end: 2:33:28
+    - start: 2:34:05
+    - -: What is git and why?
+    - 2:37:36: Installation
+    - 2:39:43: Starting or cloning a repository
+    - 2:46:00: Making a change (add / status / diff / restore)
+    - 2:53:15: Making a commit (and setting username/email)
+    - 2:56:18: Looking at history some
+    - 2:59:40: Pushing to the web repository
+    - 3:02:10: Common problems
+    - 3:02:20: Reverting a change
+    - 3:07:45: Wrap up, what you can do next
+    - end: 3:13:12
 
 - output: day1-your-future-in-scicomp.mkv
   title: 
@@ -59,6 +97,13 @@
      ..
 
   editlist:
+    - start: 3:23:08
+    - 3:25:10: "Don't go alone"
+    - 3:25:40: Help
+    - 3:27:17: Training
+    - 3:30:40: Professional development
+    - 3:31:45: Aalto Research Software Engineer service
+    - end: 3:33:30
 
 - output: day1-connecting.mkv
   title: 
@@ -66,5 +111,7 @@
      ..
 
   editlist:
-
-
+    - start: 3:33:35
+    - -: Connecting
+    - 3:43:04: Feedback of the day
+    - end: 3:43:38
