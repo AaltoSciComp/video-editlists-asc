@@ -1,0 +1,70 @@
+- workshop_description: >
+    This is part of the Aalto Scientific Computing Summer Kickstart
+    workshop.  The videos are available to everyone, but may be most
+    useful to the people who attended the workshop and want to review
+    later.
+
+    Playlist: https://www.youtube.com/playlist?list=PLZLVmS9rf3nPFw29oKUj6w1QdsTCECS1S
+
+    Workshop webpage: https://scicomp.aalto.fi/training/scip/summer-kickstart/
+
+    Aalto Scientific Computing: https://scicomp.aalto.fi/
+
+
+- input: day1.obs.mkv
+- output: day1-icebreaker.mkv
+  title: Icebreaker
+  description: >-
+    This is the starting discussion before the workshop gets started.
+    Most people would probably want to skip this and move on to the
+    next video.
+
+  editlist:
+  - start: 11:05
+  - end: 20:09
+
+- output: day1-intro.mkv
+  title: Introduction day 1
+  description: >-
+     ..
+
+  editlist:
+  - start: 20:09
+  - end: 31:13
+
+- output: day1-hpc-crash-course.mkv
+  title: 
+  description: >-
+     ..
+
+  editlist:
+
+- output: day1-csc-resources.mkv
+  title: 
+  description: >-
+     ..
+
+  editlist:
+
+- output: day1-git-crash-course.mkv
+  title: 
+  description: >-
+     ..
+
+  editlist:
+
+- output: day1-your-future-in-scicomp.mkv
+  title: 
+  description: >-
+     ..
+
+  editlist:
+
+- output: day1-connecting.mkv
+  title: 
+  description: >-
+     ..
+
+  editlist:
+
+
