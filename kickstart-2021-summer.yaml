@@ -207,6 +207,17 @@
     - end: 
 
 
+- output: day2-asking-for-help.mkv
+  title: How to ask for help
+  description: >
+     This talk is about how we can all improve the dialogue between supercomputer user community and staff. How to formulate support requests to get a useful answer and how to approach problems to find solutions sooner. But it is also aiming at support staff so that we always remain respectful and try to learn and solve problems together
+
+     https://cicero.xyz/v3/remark/0.14.0/github.com/bast/help-with-supercomputers/main/talk.md
+
+  editlist:
+    - start: 
+    - end: 
+
 - output: day2-storage.mkv
   title: 
   description: >
