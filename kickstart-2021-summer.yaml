@@ -167,98 +167,175 @@
 
 ### Day 2
 
-- output: day2-icebreaker.mkv
-  title: 
+- input: day1.obs.mkv
+
+- output: day2-icebreaker-intro.mkv
+  title: Icebreaker and Introduction
   description: >
-     ..
+     Icebreaker and introduction of the day.  Possibly not that useful
+     except for historical reference, most people skip to the
+     "Schedule of the day".
 
   editlist:
-    - start: 
-    - end: 
-
-
-- output: day2-intro.mkv
-  title: 
-  description: >
-     ..
-
-  editlist:
-    - start: 
-    - end: 
+    - start: 8:05
+    - -: Icebreaker
+    - 16:10: Schedule of the day
+    - 17:15: Schedule details
+    - 20:20: Has everyone connected already?
+    - end: 23:40
 
 
 - output: day2-connecting.mkv
-  title: 
+  title: Connecting to the cluster
   description: >
-     ..
+     Yesterday, we talked about connecting to the cluster some.  We go
+     over more about connecting to the cluster, ssh, and other options.
+
+     https://scicomp.aalto.fi/triton/tut/connecting/
 
   editlist:
-    - start: 
-    - end: 
+    - start: 23:40
+    - 25:45: ssh demo
+    - 30:25: VDI for connection
+    - 36:13: screen and tmux
+    - end: 39:54
+    - start: 46:20
+    - -: Exercise session follow-up
+    - end: 47:35
 
 
 - output: day2-applications.mkv
-  title: 
+  title: Applications on the cluster
   description: >
-     ..
+     A general overview of applications on the cluster.  We don't go
+     into "module" (that is tomorrow), but we talk about what you can
+     find in general.
+
+     https://scicomp.aalto.fi/triton/tut/applications/
 
   editlist:
-    - start: 
-    - end: 
-
+    - start: 47:36
+    - -: Basics
+    - 1:00:00: Exercise introduction
+    - end: 1:02:22
+    - start: 1:16:10
+    - -: What happens when things go wrong?
+    - end: 1:17:10
+    - start: 2:09:52
+    - end: 2:12:37
 
 - output: day2-asking-for-help.mkv
   title: How to ask for help
   description: >
-     This talk is about how we can all improve the dialogue between supercomputer user community and staff. How to formulate support requests to get a useful answer and how to approach problems to find solutions sooner. But it is also aiming at support staff so that we always remain respectful and try to learn and solve problems together
+     This talk is about how we can all improve the dialogue between supercomputer user community and staff. How to formulate support requests to get a useful answer and how to approach problems to find solutions sooner. But it is also aiming at support staff so that we always remain respectful and try to learn and solve problems together.
+
+     During this talk, the Fastly CDN went down and broke a lot of the
+     internet.  We left that discussion in there because it was a bit
+     interesting at the time, and hopefully you can be entertained by
+     it now.
 
      https://cicero.xyz/v3/remark/0.14.0/github.com/bast/help-with-supercomputers/main/talk.md
 
   editlist:
-    - start: 
-    - end: 
+    - start: 1:17:17
+    - -: Why we are talking now?
+    - 1:18:00: Introduction of the speaker
+    - 1:18:50: Is Twitch down?
+    - 1:20:00: What is this talk about?
+    - 1:20:34: Begin talk
+    - 1:24:10: Who is on the other side?
+    - 1:27:27: Making a good issue
+    - 1:31:14: Formulate your question
+    - 1:33:55: The XY problem
+    - 1:37:07: "Intermission: The internet is broken!"
+    - 1:39:47: First time on a new machine?
+    - 1:44:20: Create a small reproducible example
+    - 1:48:02: Summary
+    - 1:50:07: Q&A
+    - end: 1:54:01
 
 - output: day2-storage.mkv
-  title: 
+  title: Data storage
   description: >
-     ..
+     Cluster data storage systems, including the reason storage is
+     important, remote mounting, scp, and sshfs.  Note that scp is not a
+     good tool to use anymore, use rsync instead.
+
+     https://scicomp.aalto.fi/triton/tut/storage/
 
   editlist:
-    - start: 
-    - end: 
+    - start: 2:12:37
+    - 2:13:06: Basics
+    - 2:20:10: Think about I/O before you start
+    - 2:25:15: Available storage places.
+    - 2:33:57: Accessing data in other places
+    - 2:42:30: Remote mounting
+    - 2:47:35: Demo of scp
+    - 2:52:05: Demo of sshfs
+    - 2:54:47: Exercise session
+    - end: 2:57:08
+    - start: 3:26:30
+    - -: Post-exercise discussion
+    - end: 3:30:43
+
 
 
 - output: day2-interactive.mkv
-  title: 
+  title: Interactive jobs
   description: >
-     ..
+    Before we get to scripted jobs (like most people use on the
+    cluster), we will talk about interactive jobs.  This lets us get a
+    little bit familiar with the Slurm system.
+
+    https://scicomp.aalto.fi/triton/tut/interactive/
 
   editlist:
-    - start: 
-    - end: 
+    - start: 3:30:43
+    - 3:31:45: What is Slurm?  What is a workload manager?
+    - 3:36:00: Your first interactive job
+    - 3:45:10: Exercise
+    - end: 3:46:10
+    - start: 3:50:56
+    - -: Post-exercise discussion
+    - 3:52:25: Why use the cluster if it is slower?
+    - 3:58:40: What happens if job runs out of memory or time?
+    - 4:04:15: sinteractive
+    - 4:06:45: more Q&A
+    - end: 4:15:15
 
-
-- output: day2-serial.mkv
-  title: 
+- output: day2-wrapup.mkv
+  title: Day 2 wrapup
   description: >
-     ..
+     The wrap-up of the day: request for feedback and commentary on
+     what we learned today
 
   editlist:
-    - start: 
-    - end: 
+    - start: 4:15:15
+    - end: 4:22:40
 
 
-- output: day2-monitoring.mkv
-  title: 
-  description: >
-     ..
 
-  editlist:
-    - start: 
-    - end: 
+#- output: day3-serial.mkv
+#  title: 
+#  description: >
+#     ..
+#
+#  editlist:
+#    - start: 
+#    - end: 
+#
+#
+#- output: day3-monitoring.mkv
+#  title: 
+#  description: >
+#     ..
+#
+#  editlist:
+#    - start: 
+#    - end: 
 
 
-#- output: day2-.mkv
+#- output: day3-.mkv
 #  title: 
 #  description: >
 #     ..
