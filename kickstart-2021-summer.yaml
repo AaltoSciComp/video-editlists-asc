@@ -167,7 +167,7 @@
 
 ### Day 2
 
-- input: day1.obs.mkv
+- input: day2.obs.mkv
 
 - output: day2-icebreaker-intro.mkv
   title: Icebreaker and Introduction
@@ -307,7 +307,7 @@
   title: Day 2 wrapup
   description: >
      The wrap-up of the day: request for feedback and commentary on
-     what we learned today
+     what we learned today.
 
   editlist:
     - start: 4:15:15
