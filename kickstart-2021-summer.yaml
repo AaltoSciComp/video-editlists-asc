@@ -313,66 +313,138 @@
     - start: 4:15:15
     - end: 4:22:40
 
-### Day 2
+
+
+### Day 3
 
 - input: day3.obs.mkv
 
+- output: day3-intro.mkv
+  title: Day 3 intro
+  description: >
+     The general day 3 introduction.
+
+  editlist:
+    - start: 9:58
+    - end: 18:37
 
 
-#- output: day3-serial.mkv
-#  title: 
-#  description: >
-#     ..
-#
-#  editlist:
-#    - start: 
-#    - end: 
-#
-#
-#- output: day3-monitoring.mkv
-#  title: 
-#  description: >
-#     ..
-#
-#  editlist:
-#    - start: 
-#    - end: 
+- output: day3-serial.mkv
+  title: Serial jobs
+  description: >
+     Running jobs in simple batch scripts: this is the starting point
+     of everything that comes next.
+
+     https://scicomp.aalto.fi/triton/tut/serial/
+
+  editlist:
+    - start: 18:59
+    - -: Basics of Slurm
+    - 25:58: Your first job script
+    - 39:45: Monitoring your jobs
+    - 43:15: Cancelling jobs
+    - 45:15: Partitions
+    - 48:30: Other Slurm options
+    - 49:55: Exercises
+    - end: 53:50
+    - start: 1:22:35
+    - -: Exercise solutions
+    - end: 1:34:53
 
 
-#- output: day3-array.mkv
-#  title: 
-#  description: >
-#     ..
-#
-#  editlist:
-#    - start: 
-#    - end: 
+- output: day3-monitoring.mkv
+  title: Monitoring jobs
+  description: >
+     Once you run a job, you really need to see how it went: is it
+     using resources efficiently?  You have to constantly check these
+     things in order to make sure the code works well.
 
-#- output: day3-gpu.mkv
-#  title: 
-#  description: >
-#     ..
-#
-#  editlist:
-#    - start: 
-#    - end: 
+  editlist:
+    - start: 1:34:55
+    - -: What is monitoring and why?
+    - 1:37:15: Checking what has been submitted
+    - 1:45:10: Monitoring a job while it is running
+    - 1:54:10: Exercise as a demo
+    - 2:07:00: Monitoring a job after it has finished
+    - 2:10:30: Exercises/demos
+    - end: 2:18:45
+    - start: 2:39:03
+    - -: Post-exercise discussion, what comes next
+    - 2:41:00: Exercise example 1a
+    - end: 2:51:03
 
-#- output: day3-parallel.mkv
-#  title: 
-#  description: >
-#     ..
-#
-#  editlist:
-#    - start: 
-#    - end: 
+- output: day3-parallel.mkv
+  title: Parallel jobs
+  description: >
+     Parallel jobs let you run code that uses more than one processor core,
+     within one process or run.  It is a matter of understanding how
+     the code works and giving the right options to Slurm.  But, that
+     bit about understanding how the code uses the processors can be
+     quite difficult if the code isn't documented well.
 
-#- output: day3-outro.mkv
-#  title: 
-#  description: >
-#     ..
-#
-#  editlist:
-#    - start: 
-#    - end: 
+     https://scicomp.aalto.fi/triton/tut/parallel/
+
+  editlist:
+    - start: 2:51:17
+    - -: Basics
+    - 3:01:40: Demos
+    - end: 3:16:00
+
+
+- output: day3-array.mkv
+  title: Array jobs
+  description: >
+     Array jobs let you efficiently run one thing many times.  They
+     are one of the easiest and most common ways of parallelizing things
+     - if they are "embarrassingly parallel"
+
+     https://scicomp.aalto.fi/triton/tut/array/
+
+  editlist:
+    - start: 3:22:43
+    - 3:23:50: Array Jobs
+    - 3:25:40: Demo
+    - 3:35:23: Discussion
+    - end: 3:38:18
+
+- output: day3-gpu.mkv
+  title: GPU jobs
+  description: >
+     Using GPUs on a cluster.
+
+     https://scicomp.aalto.fi/triton/tut/gpu/
+
+  editlist:
+    - start: 3:38:24
+    - -: GPUs
+    - end: 3:52:18
+    - start: 4:02:58
+    - -: Demo finishes, GPU performance monitoring
+    - end: 4:06:43
+
+- output: day3-modules.mkv
+  title: Software modules
+  description: >
+     "module" is the command you use to make more software available.
+     Here, we go over its use.
+
+     https://scicomp.aalto.fi/triton/tut/modules/
+
+  editlist:
+    - start: 3:52:38
+    - end: 4:02:58
+
+
+- output: day3-outro.mkv
+  title: Conclusion of the workshop
+  description: >
+     Concluding remarks of the workshop: what we learned, feedback,
+     and where you might go from here.
+
+  editlist:
+    - start: 4:06:43
+    - -: Summary of moving up the computing cluster ladder
+    - 4:09:15: Final words
+    - end: 4:27:01
 
 
