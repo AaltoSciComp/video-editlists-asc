@@ -313,6 +313,10 @@
     - start: 4:15:15
     - end: 4:22:40
 
+### Day 2
+
+- input: day3.obs.mkv
+
 
 
 #- output: day3-serial.mkv
@@ -335,7 +339,34 @@
 #    - end: 
 
 
-#- output: day3-.mkv
+#- output: day3-array.mkv
+#  title: 
+#  description: >
+#     ..
+#
+#  editlist:
+#    - start: 
+#    - end: 
+
+#- output: day3-gpu.mkv
+#  title: 
+#  description: >
+#     ..
+#
+#  editlist:
+#    - start: 
+#    - end: 
+
+#- output: day3-parallel.mkv
+#  title: 
+#  description: >
+#     ..
+#
+#  editlist:
+#    - start: 
+#    - end: 
+
+#- output: day3-outro.mkv
 #  title: 
 #  description: >
 #     ..
