@@ -1,17 +1,22 @@
 - workshop_title: Python for Scientific Computing 2021
 - workshop_description: >
-
     Python for Scientific Computing is a bridge between basic Python
     courses and scientific work with Python.  This is a
     medium-advanced course in Python tools such as NumPy, SciPy,
-    Matplotlib, and Pandas. It is suitable for people who have a basic
-    understanding of basic Python and want to know some internals and
-    important libraries for science.  We don't cover anything in too
-    much depth, but we do introduce you to all of the main tools you
-    will need.
+    Matplotlib, and Pandas.  It also covers some more advanced tools,
+    such as Binder, releasing software, data formats, etc.  It is
+    suitable for people who have a basic understanding of Python
+    and want to know some internals and important libraries for
+    science.  We don't cover anything in too much depth, but we do
+    introduce you to all of the main tools you will need.
 
 
-    Other links:
+    This course was put on as a collaboration between partners in
+    Finland, Norway, and Sweden, coordinated by Aalto Scientific
+    Computing.
+
+
+    Links:
 
     - Playlist: https://www.youtube.com/playlist?list=PLZLVmS9rf3nOS7bHNmbcDoyTnMYaz_TJW
 
@@ -22,8 +27,6 @@
     - Aalto Scientific Computing: https://scicomp.aalto.fi/
 
     - CodeRefinery: https://coderefinery.org
-
-
 - input: day1-obs--intro-jupyter-numpy-pandas1.mkv
 
 - output: day1-intro.mkv
@@ -42,7 +45,6 @@
 - output: day1-jupyter.mkv
   title: Jupyter
   description: >-
-
     We discuss Jupyter, its advantages and disadvantages, and how to
     use it.  Our main focus is establishing a common ground for our
     main way of doing demos for the rest of the course, we don't go
@@ -67,8 +69,13 @@
 - output: day1-numpy.mkv
   title: Numpy
   description: >-
-
-
+    Numpy is the standard Python array package.  It provides not only
+    the basic data structure, but also plenty of operations on this
+    data.  By using built-in functions, many operations can be
+    vectorized and made much faster (just like they are done in any
+    other high-level numerical language).  Many other scientific and
+    numerical packages are build using Numpy, so it is very important
+    to learn to use it well.
 
     https://scicomp.aalto.fi/training/scip/python-for-scicomp/numpy/
 
@@ -89,21 +96,36 @@
     - -: Q&A
     - 2:15:00: wrap-up and conclusions
     - end: 2:16:20
-      
+
 
 
 - output: day1-pandas.mkv
-  title: Pandas
+  title: Pandas 1/2
   description: >-
+    Pandas is the standard tabular data package for Python.  It allows
+    you to do plenty of operations quickly and seamlessly.  In this
+    lesson, we go over the basics of using Pandas.  After this lesson,
+    you won't know everything but you will be able to read the docs
+    and figure out from more yourself, which is what almost everyone
+    has to do anyway.
 
-
+    Continued in part 2: ... coming tomorrow
 
     https://scicomp.aalto.fi/training/scip/python-for-scicomp/pandas/
 
   editlist:
-    - start: 
-    - end: 
-
+    - start: 2:26:38
+    - 2:27:32: What is pandas?
+    - 2:28:38: Demo and basic structure of a DataFrame
+    - 2:40:00: Selecting from the dataframe
+    - 2:51:30: Exercise 1
+    - end: 2:58:55
+    - start: 3:01:28
+    - -: Tidy data
+    - end: 3:11:44
+    - start: 3:13:10
+    - -: Q&A
+    - end: 3:15:40
 
 
 #- output: day1-.mkv
