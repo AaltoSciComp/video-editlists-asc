@@ -25,6 +25,7 @@
 
 
 - input: day1-obs--intro-jupyter-numpy-pandas1.mkv
+
 - output: day1-intro.mkv
   title: Intro
   description: >-
@@ -34,6 +35,85 @@
     https://scicomp.aalto.fi/training/scip/python-for-scicomp/intro/
 
   editlist:
-    - start: 17:23
-    - end: 32:30
+    - start: 17:22
+    - end: 32:31
 
+
+- output: day1-jupyter.mkv
+  title: Jupyter
+  description: >-
+
+    We discuss Jupyter, its advantages and disadvantages, and how to
+    use it.  Our main focus is establishing a common ground for our
+    main way of doing demos for the rest of the course, we don't go
+    too deep.
+
+    https://scicomp.aalto.fi/training/scip/python-for-scicomp/jupyter/
+
+  editlist:
+    - start: 33:50
+    - -: Intro
+    - 36:25: Launching Jupyter
+    - 38:15: Tour of the interface
+    - 46:10: Exercises 1, 2
+    - end: 47:33
+    - start: 59:00
+    - -: "Post-exercises Q&A"
+    - 1:01:25: Why Jupyter, advantages and disadvantages
+    - end: 1:05:55
+
+
+
+- output: day1-numpy.mkv
+  title: Numpy
+  description: >-
+
+
+
+    https://scicomp.aalto.fi/training/scip/python-for-scicomp/numpy/
+
+  editlist:
+    - start: 1:16:29
+    - 1:17:10: What is the array object?
+    - 1:19:30: Python vs Numpy speed test
+    - 1:22:35: Ways to create arrays
+    - 1:28:20: Array math
+    - 1:30:15: Exercises 1, 2
+    - end: 1:31:18
+    - start: 1:46:12
+    - 1:46:47: Indexing and slicing
+    - 1:52:58: Universal functions
+    - 1:56:30: Exercises 3, 4, (5)
+    - end: 1:57:24
+    - start: 2:09:05
+    - -: Q&A
+    - 2:15:00: wrap-up and conclusions
+    - end: 2:16:20
+      
+
+
+- output: day1-pandas.mkv
+  title: Pandas
+  description: >-
+
+
+
+    https://scicomp.aalto.fi/training/scip/python-for-scicomp/pandas/
+
+  editlist:
+    - start: 
+    - end: 
+
+
+
+#- output: day1-.mkv
+#  title: Intro
+#  description: >-
+#
+#
+#
+#    https://scicomp.aalto.fi/training/scip/python-for-scicomp/
+#
+#  editlist:
+#    - start: 
+#    - end: 
