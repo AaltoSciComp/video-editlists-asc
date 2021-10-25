@@ -1,0 +1,39 @@
+- workshop_title: Python for Scientific Computing 2021
+- workshop_description: >
+
+    Python for Scientific Computing is a bridge between basic Python
+    courses and scientific work with Python.  This is a
+    medium-advanced course in Python tools such as NumPy, SciPy,
+    Matplotlib, and Pandas. It is suitable for people who have a basic
+    understanding of basic Python and want to know some internals and
+    important libraries for science.  We don't cover anything in too
+    much depth, but we do introduce you to all of the main tools you
+    will need.
+
+
+    Other links:
+
+    - Playlist: https://www.youtube.com/playlist?list=PLZLVmS9rf3nOS7bHNmbcDoyTnMYaz_TJW
+
+    - Course material: https://aaltoscicomp.github.io/python-for-scicomp/j
+
+    - Workshop webpage: https://scicomp.aalto.fi/training/scip/python-for-scicomp/
+
+    - Aalto Scientific Computing: https://scicomp.aalto.fi/
+
+    - CodeRefinery: https://coderefinery.org
+
+
+- input: day1-obs--intro-jupyter-numpy-pandas1.mkv
+- output: day1-intro.mkv
+  title: Intro
+  description: >-
+    The introduction to the workshop which explains the outline and
+    practical livestream mechanics.
+
+    https://scicomp.aalto.fi/training/scip/python-for-scicomp/intro/
+
+  editlist:
+    - start: 17:23
+    - end: 32:30
+
