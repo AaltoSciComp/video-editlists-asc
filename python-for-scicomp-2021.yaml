@@ -2,7 +2,7 @@
 - workshop_description: >
     Python for Scientific Computing is a bridge between basic Python
     courses and scientific work with Python.  This is a
-    medium-advanced course in Python tools such as NumPy, SciPy,
+    basic to intermediate course in Python tools such as NumPy, SciPy,
     Matplotlib, and Pandas.  It also covers some more advanced tools,
     such as Binder, releasing software, data formats, etc.  It is
     suitable for people who have a basic understanding of Python
@@ -20,7 +20,7 @@
 
     - Playlist: https://www.youtube.com/playlist?list=PLZLVmS9rf3nOS7bHNmbcDoyTnMYaz_TJW
 
-    - Course material: https://aaltoscicomp.github.io/python-for-scicomp/j
+    - Course material: https://aaltoscicomp.github.io/python-for-scicomp/
 
     - Workshop webpage: https://scicomp.aalto.fi/training/scip/python-for-scicomp/
 
@@ -50,7 +50,7 @@
     main way of doing demos for the rest of the course, we don't go
     too deep.
 
-    https://scicomp.aalto.fi/training/scip/python-for-scicomp/jupyter/
+    https://aaltoscicomp.github.io/python-for-scicomp/jupyter/
 
   editlist:
     - start: 33:50
@@ -77,7 +77,7 @@
     numerical packages are build using Numpy, so it is very important
     to learn to use it well.
 
-    https://scicomp.aalto.fi/training/scip/python-for-scicomp/numpy/
+    https://aaltoscicomp.github.io/python-for-scicomp/numpy/
 
   editlist:
     - start: 1:16:29
@@ -111,7 +111,7 @@
 
     Continued in part 2: ... coming tomorrow
 
-    https://scicomp.aalto.fi/training/scip/python-for-scicomp/pandas/
+    https://aaltoscicomp.github.io/python-for-scicomp/pandas/
 
   editlist:
     - start: 2:26:38
@@ -128,14 +128,101 @@
     - end: 3:15:40
 
 
-#- output: day1-.mkv
-#  title: Intro
-#  description: >-
-#
-#
-#
-#    https://scicomp.aalto.fi/training/scip/python-for-scicomp/
-#
-#  editlist:
-#    - start: 
-#    - end: 
+- output: day2-pandas2.mkv
+  title: Pandas 2/2
+  description: >-
+    Pandas is the standard tabular data package for Python.  It allows
+    you to do plenty of operations quickly and seamlessly.  In this
+    lesson, we go over the basics of using Pandas.  After this lesson,
+    you won't know everything but you will be able to read the docs
+    and figure out from more yourself, which is what almost everyone
+    has to do anyway.
+
+    Continued from part 1: https://www.youtube.com/watch?v=MRvm9NFk5Jw
+
+    https://aaltoscicomp.github.io/python-for-scicomp/pandas/
+
+  editlist:
+    - start: 27:00
+    - 27:10: Questions about indexing, loc, iloc
+    - 33:40: Working with dataframes, basic operations
+    - end: 54:19
+    - start: 55:19
+    - -: Groupby
+    - 57:40: Exercises 2
+    - end: 58:32
+    - start: 1:09:35
+    - -: Plotting with pandas
+    - end: 1:14:06
+
+- output: day2-visualization.mkv
+  title: Visualizaiton
+  description: >-
+    Generating figures is part of the scientific process.  This should
+    not be manual, but ideally they should be automatically generated in
+    final form.  This makes your work reproducible, getting around
+    "oh no I can't make it again" problems.
+
+    In this lesson, we discuss the matplotlib Python library which can
+    be used to make figures like this.  This isn't the only Python
+    tool, and may not even be the best one, but it is the base of many
+    other tools and a good point to learn the basic concepts you will
+    apply over and over.
+
+    https://aaltoscicomp.github.io/python-for-scicomp/data-visualization/
+
+  editlist:
+    - start: 1:24:30
+    - 1:27:00: Motivation of reproducible figures
+    - 1:30:00: Getting started with matplotlib
+    - 1:35:15: Exercise 1
+    - end: 1:38:07
+    - start: 1:52:55
+    - -: Q&A
+    - 1:54:32: Two matplotlib interfaces, object-oriented or pyplot
+    - 1:57:25: Styling and customizing plots
+    - 2:00:55: Exercises Customization-{1,2,3}
+    - end: 2:08:22
+    - start: 2:32:24
+    - 2:33:38: Exercise Customization-3 demo (find a similar plot from a gallery and adapt it)
+    - 2:39:25: Example of Seaborn
+    - 2:39:58: Summary
+    - end: 2:42:22
+
+- output: day2-dataformats.mkv
+  title: Data formats
+  description: >-
+
+    Input/output bandwidth is just as much a consumable resource as
+    CPU or memory.  And data formats are important for both ease
+    (human effort) and time taken to read data.  Here, we will go over
+    the basic concepts and some important data formats which you may
+    need in your work.
+
+    https://aaltoscicomp.github.io/python-for-scicomp/data-formats/
+
+  editlist:
+    - start: 2:43:30
+    - end: 2:44:26
+    - start: 2:25:18
+    - -: Why are data formats important?
+    - 2:47:00: Two most common data formats (tidy and array)
+    - 2:52:47: File formats, considerations
+    - 2:59:00: csv
+    - 3:08:30: Feather
+    - 3:12:23: Parquet
+    - 3:15:15: HDF5
+    - 3:16:58: NetCDF
+    - 3:18:35: npy (numpy data format)
+    - 3:19:45: Exercises
+    - 3:20:00: Why binary formats over text formats? Main considerations
+    - 3:21:45: Things to remember / questions to ask yourself
+    - end: 3:22:40
+    - start: 3:23:20
+    - -: sqlite
+    - end: 3:25:22
+    - start: 3:27:20
+    - -: Discussion
+    - 3:29:50: Structural format vs semantic formats
+    - 3:30:50: "Conclusion, Relation of data formats to the rest of workflow: reducing bottlenecks"
+    - end: 3:33:00
