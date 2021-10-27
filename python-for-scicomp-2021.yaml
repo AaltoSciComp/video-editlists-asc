@@ -27,6 +27,7 @@
     - Aalto Scientific Computing: https://scicomp.aalto.fi/
 
     - CodeRefinery: https://coderefinery.org
+
 - input: day1-obs--intro-jupyter-numpy-pandas1.mkv
 
 - output: day1-intro.mkv
@@ -128,6 +129,9 @@
     - end: 3:15:40
 
 
+- input: day2-obs--pandas-visualization-dataformats.mkv
+
+
 - output: day2-pandas2.mkv
   title: Pandas 2/2
   description: >-
@@ -226,3 +230,176 @@
     - 3:29:50: Structural format vs semantic formats
     - 3:30:50: "Conclusion, Relation of data formats to the rest of workflow: reducing bottlenecks"
     - end: 3:33:00
+
+# Day 3
+- input: day3-obs--scripts-scipy-libraries-parallel.mkv
+
+- output: day3-scripts.mkv
+  title: Scripts
+  description: >-
+
+    Thus far, we have been running Python code from Jupyter notebooks
+    (though the same principle applies to other environments such as
+    Spyder or IDSs).  This doesn't easily allow you to scale up or
+    scale out: if you need to run the same, or slightly different,
+    code many times, it is hard.  There are ways to do this within
+    Jupyter, but in the end you will want to escape and make command
+    line interfaces.  This is the universal interface for automation,
+    scale-out, and parameterization of work.  We give the quickest
+    intro to this.
+
+    https://aaltoscicomp.github.io/python-for-scicomp/scripts/
+
+  editlist:
+    - start: 21:56
+    - 22:20: Why make scripts?
+    - 25:00: Script example type-along (exercise 1)
+    - end: 35:35
+    - start: 36:50
+    - -: Splitting part of the script into a module and importing it
+    - end: 43:48
+    - start: 52:45
+    - -: Command line argument parsing
+    - end: 1:08:24
+    - start: 1:14:40
+    - 1:15:50: Discussion of command-line argument usage
+    - 1:16:40: Configuration files
+    - 1:19:25: Q&A (argparse vs click)
+    - end: 1:21:30
+
+
+- output: day3-scipy.mkv
+  title: Scipy
+  description: >-
+
+    Scipy is a Python interface to a large amount of useful code, a
+    lot of it written in C or Fortran.  Here, we can't really try to
+    teach everything about it, but we provide some discussions and
+    examples.
+
+    https://aaltoscicomp.github.io/python-for-scicomp/scipy/
+
+  editlist:
+    - start: 1:32:57
+    - 1:34:50: What is scipy?
+    - 1:36:30: Introduction to exercises
+    - end: 1:38:03
+    - start: 1:52:40
+    - -: Post-exercise discussion
+    - end: 1:56:40
+
+
+- output: day3-libraries.mkv
+  title: Libraries
+  description: >-
+
+    Your code doesn't exist alone.  It is one part of a large
+    ecosystem, where many other things exist for you to build off of.
+    This is (more than anything) a discussion about the broader
+    ecosystem, what you would want to build off of, and what you 
+
+    https://aaltoscicomp.github.io/python-for-scicomp/libraries/
+
+  editlist:
+    - start: 1:56:50
+    - 1:57:15: Motivation and introduction
+    - 2:00:17: The SciPy ecosystem
+    - 2:01:51: Connecting Python to other languages
+    - 2:03:05: How can you tell if you should use some library?
+    - 2:06:58: Making your work reuseable
+    - 2:07:58: Exercise discussion (not done)
+    - 2:07:55: cython
+    - 2:09:10: "Q&A: building a package, dependency mismatches"
+    - end: 2:13:50
+
+
+- output: day3-parallel.mkv
+  title: Parallel
+  description: >-
+
+    Parallel programming: doing more than one thing at a time.  It is
+    often needed when you need more computer power, and there are a
+    variety of ways to do it.  We don't go much into depth, but we do
+    tell the basics.
+
+    https://aaltoscicomp.github.io/python-for-scicomp/parallel/
+
+  editlist:
+    - start: 2:20:53
+    - 2:22:35: Modes of parallelism
+    - 2:24:50: Parallel paradigms (embarrassingly, shared memory, message passing)
+    - 2:27:35: Python's global interpreter lock (GIL)
+    - 2:29:58: Python's multiprocessing module
+    - 2:35:10: Message Passing Interface (MPI) in Python
+    - 2:41:40: Exercise introduction (multiprocessing, MPI)
+    - end: 2:43:00
+    - start: 3:09:27
+    - -: Exercise discussion
+    - 3:11:05: Dask
+    - 3:17:13: task queues
+    - 3:18:10: Summary/wrap-up
+    - end: 3:18:35
+    - start: 3:22:15
+    - -: Dask, how to get the results out of the arrays
+    - end: 3:23:13
+
+
+- output: day3-outro.mkv
+  title: Outro of day 3
+  description: >-
+
+    Outro of day 3 - general discussion about the course.
+
+  editlist:
+    - start: 3:19:55
+    - end: 3:22:15
+    - start: 3:23:13
+    - end: 3:26:35
+
+## Day 4
+#- input: day4-obs--dependencies-binder-packaging.mkv
+#
+#- output: day4-dependencies.mkv
+#  title: Dependencies
+#  description: >-
+#
+#
+#    https://aaltoscicomp.github.io/python-for-scicomp/dependencies/
+#
+#  editlist:
+#    - start: 
+#    - end: 
+#- output: day4-binder.mkv
+#  title: Binder
+#  description: >-
+#
+#
+#    https://aaltoscicomp.github.io/python-for-scicomp/binder/
+#
+#  editlist:
+#    - start: 
+#    - end: 
+#
+#
+#- output: day4-packaging.mkv
+#  title: Packaging
+#  description: >-
+#
+#
+#    https://aaltoscicomp.github.io/python-for-scicomp/packaging/
+#
+#  editlist:
+#    - start: 
+#    - end: 
+#
+#
+#- output: day4-outro.mkv
+#  title: Outro
+#  description: >-
+#
+#
+#    https://aaltoscicomp.github.io/python-for-scicomp/packaging/
+#
+#  editlist:
+#    - start: 
+#    - end: 
