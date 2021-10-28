@@ -357,49 +357,123 @@
     - end: 3:26:35
 
 ## Day 4
-#- input: day4-obs--dependencies-binder-packaging.mkv
-#
-#- output: day4-dependencies.mkv
-#  title: Dependencies
-#  description: >-
-#
-#
-#    https://aaltoscicomp.github.io/python-for-scicomp/dependencies/
-#
-#  editlist:
-#    - start: 
-#    - end: 
-#- output: day4-binder.mkv
-#  title: Binder
-#  description: >-
-#
-#
-#    https://aaltoscicomp.github.io/python-for-scicomp/binder/
-#
-#  editlist:
-#    - start: 
-#    - end: 
-#
-#
-#- output: day4-packaging.mkv
-#  title: Packaging
-#  description: >-
-#
-#
-#    https://aaltoscicomp.github.io/python-for-scicomp/packaging/
-#
-#  editlist:
-#    - start: 
-#    - end: 
-#
-#
-#- output: day4-outro.mkv
-#  title: Outro
-#  description: >-
-#
-#
-#    https://aaltoscicomp.github.io/python-for-scicomp/packaging/
-#
-#  editlist:
-#    - start: 
-#    - end: 
+- input: day4-obs--dependencies-binder-packaging-panel-outro.mkv
+
+- output: day4-dependencies.mkv
+  title: 4.1 Dependencies
+  description: >-
+
+    Dependency management with environments and requirement files in
+    Python.
+
+    When you have projects that depend on other libraries, you need
+    some way of recording and managing these.  Here, we learn of the
+    basic concepts, how to record dependencies (requirements.txt,
+    environment.yml), and how to use the virtual environments/conda
+    environments.
+
+    https://aaltoscicomp.github.io/python-for-scicomp/dependencies/
+
+  editlist:
+    - start: 17:19
+    - 19:45: Demo, two versions of numpy on one computer
+    - 27:20: Exercise 1, discussion
+    - 35:01: "conda, pip, and PyPI: installing packages"
+    - 55:45: "Virtual environments: installing things per-project"
+    - 59:38: Recording dependencies with requirements.txt and environment.yml
+    - end: 1:11:43
+
+
+- output: day4-binder.mkv
+  title: 4.2 Binder
+  description: >-
+
+    A demo of the Binder service.
+
+    Binder (mybinder.org) is a cloud service for running Jupyter
+    in a reproducible software environment.  It uses requirements
+    files in various languages (requirements.txt, environment.yml, and
+    similar for other languages) to create an environment out of a
+    repository (Github, Gitlab, Zenodo).
+
+    https://aaltoscicomp.github.io/python-for-scicomp/binder/
+
+  editlist:
+    - start: 1:22:35
+    - 1:25:10: What is binder?
+    - 1:28:40: Why is it sometimes not enough to share your code?
+    - 1:33:58: Demo of Binder (begin)
+    - 1:34:50: Put the code into the notebook
+    - 1:36:00: Putting the notebook on Github
+    - 1:41:10: Adding requirements.txt to the repository
+    - 1:42:50: Binder's interface
+    - 1:44:00: Adding binder's badge to the repository's readme file
+    - 1:44:50: Launching binder, observing installations.
+    - 1:45:50: Q&A
+    - 1:48:28: Notebook starts, see what you can do.
+    - 1:29:20: Zenodo and getting a DOI (begin)
+    - 1:51:40: Linking Zenodo to Github
+    - 1:53:00: Making a release on Github
+    - 1:54:30: Viewing result on Github
+    - 1:55:10: Binder + Zenodo
+    - 1:55:45: Further steps/ideas, discussion
+    - end: 2:00:00
+
+
+- output: day4-packaging.mkv
+  title: 4.3 Packaging
+  description: >-
+
+    How to package and distribute software you write.
+
+    After you create code, what comes next: how do you distribute it?
+    Here, we discuss how to package and distribute your work via
+    setup.py and the Python Package Index and other things.
+
+    https://aaltoscicomp.github.io/python-for-scicomp/packaging/
+
+  editlist:
+    - start: 2:12:28
+    - 2:13:58: What is packaging?  How do you distribute code?
+    - 2:15:05: Creating a new sample project
+    - 2:16:20: Adding __init__.py to make it a package
+    - 2:21:50: Making it installable with setup.py
+    - 2:27:10: Adding the README.md file
+    - 2:27:40: Installing using setup.py directly
+    - 2:30:20: Using pip to install locally or from Github directly.
+    - 2:32:54: Using PyPI (Python Package Index) to distribute packages
+    - 2:33:50: Twine to upload, sdist to build the distribution
+    - 2:36:54: Installing from PyPI, examining the package
+    - 2:39:29: Discussion, when would you use this?
+    - 2:40:52: Conda packages
+    - 2:42:03: "Q&A: pip install -e, installing in other locations"
+    - end: 2:43:25
+
+
+- output: day4-paneldiscussion.mkv
+  title: 4.4 Panel discussion
+  description: >-
+
+    At the end of the course, we had a general panel discussion/Q&A
+    session with all of these instructions.  We discuss many
+    interesting topics.
+
+    IDEs, how to learn new languages, Julia vs Python and other
+    languages, risks and benefits of sharing, licenses, processors
+    (Apple M1, ARM, architectures, ...), etc.
+
+  editlist:
+    - start: 2:43:25
+    - end: 3:06:50
+
+
+- output: day4-outro.mkv
+  title: 4.5 Outro
+  description: >-
+
+    The conclusion of the workshop, looking at feedback, some final
+    discussion.
+
+  editlist:
+    - start: 3:07:20
+    - end: 3:21:55
