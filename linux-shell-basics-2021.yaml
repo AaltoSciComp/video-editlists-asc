@@ -1,0 +1,51 @@
+- workshop_title: Linux shell basics 2021
+- workshop_description: >
+
+    A workshop about the Linux shell, focusing on basics for
+    interactive use.  We have another workshop focused on shell
+    scripting (that covers part 2 of the course material).
+
+
+
+
+    Links:
+
+    - Playlist: https://www.youtube.com/playlist?list=PLZLVmS9rf3nOm_QmabHVg_iOrOkBlYMQr
+
+    - Course material: https://aaltoscicomp.github.io/linux-shell/
+
+    - Workshop webpage: https://scicomp.aalto.fi/training/scip/linux-shell-basics/
+
+    - Aalto Scientific Computing: https://scicomp.aalto.fi/
+
+    - CodeRefinery: https://coderefinery.org
+
+- input: "2021-11-08 11.48.12 Course Room - Scientific Computing in Practice 69608324491/zoom_0.mp4"
+
+- output: day1.mkv
+  title: Day 1
+  description: >-
+    Basic shell (accessing on different operating systems)
+
+    - https://aaltoscicomp.github.io/linux-shell/the-shell/
+
+    - https://aaltoscicomp.github.io/linux-shell/starting-commands/
+
+    - https://aaltoscicomp.github.io/linux-shell/processes/
+
+  editlist:
+    - start: 13:55
+    - -: Course mechanics and introduction
+    - 27:38: Starting with a shell, getting the terminal, ...
+    - end: 58:30         # profanity
+    - start: 58:32
+    - 1:03:00: Starting out, basic commands
+    - end: 1:26:00       # Break
+                         # someone speaks 1:38:55
+    - start: 1:38:58
+    - 1:41:35: Processes
+    - 2:31:23: Exercises 1.1.1 (basics, getting started, processes)
+    - end: 2:34:45       # Exercise session
+    - start: 2:54:26
+    - -: Going over exercise sessions
+    - end: 3:12:36
