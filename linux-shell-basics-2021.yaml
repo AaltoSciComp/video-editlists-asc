@@ -36,6 +36,7 @@
   editlist:
     - start: 13:55
     - -: Course mechanics and introduction
+    - cover: {begin: "15:57", end: "15:58", w: 1920, h: 1080, x: 0, y: 0}
     - 27:38: Starting with a shell, getting the terminal, ...
     - end: 58:30         # profanity
     - start: 58:32
