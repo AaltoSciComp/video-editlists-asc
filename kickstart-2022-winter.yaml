@@ -1,0 +1,191 @@
+- workshop_title: Getting started with scientific computing/HPC (winter 2022)
+- workshop_description: >
+    This is part of the Aalto Scientific Computing "Getting started
+    with Scientific Computing" and "HPC Kickstart"
+    workshop.  The videos are available to everyone, but may be most
+    useful to the people who attended the workshop and want to review
+    later.
+
+
+    Playlist: https://www.youtube.com/playlist?list=PLZLVmS9rf3nOKhGHMw4ZY57rO7tQIxk5V
+
+
+    Workshop webpage day 1: https://scicomp.aalto.fi/training/scip/getting-started-with-scientific-computing/
+
+    Workshop webpage day 2-3: https://scicomp.aalto.fi/training/scip/winter-kickstart/
+
+
+    Aalto Scientific Computing: https://scicomp.aalto.fi/
+
+    CodeRefinery: https://coderefinery.org/
+
+
+- input: day1-obs.mkv
+- output: day1-icebreaker.mkv
+  title: 1.0 Icebreaker
+  description: >-
+    This is the starting discussion before the workshop gets started.
+    Most people would probably want to skip this and move on to the
+    next video.
+
+  editlist:
+  - start: 7:42
+  - end: 17:45
+
+
+- output: day1-me-and-hpc.mkv
+  title: "1.1 Me and HPC or: How I learned to stop worrying and love the computing"
+  description: >-
+    Are you at the start of your scientific computing journey?
+
+    Would you like to hear tips and tricks from someone who knows what
+    they are doing, but still remembers what it was like to be a
+    newbie?
+
+    In this talk a we will get a personal views of high-performance
+    computing from a final year PhD student and one of our staff
+    scientists.
+
+  editlist:
+  - start: 17:45
+  - end: 41:33
+
+
+- output: day1-scicomp-workflows.mkv
+  title: 1.2 Scientific Computing workflows at Aalto
+  description: >-
+
+    The types of services available at Aalto and many other
+    universities, a summary of what you might actually use in the next
+    six months.
+
+    https://hackmd.io/@AaltoSciComp/SciCompIntro
+
+    https://scicomp.aalto.fi/triton/usage/workflows/
+
+  editlist:
+  - start: 41:33
+  - -: Intro
+  - 43:20: What is computing? How does it go?
+  - 46:20: How does computing happen?  hardware, software, data
+  - 55:55: Your computer isn't enough, what next?
+  - 1:01:05: List of services for scientific computing
+  - end: 1:07:11
+
+
+- output: day1-asking-for-help.mkv
+  title: 1.3 When and how to ask for help
+  description: >-
+
+    It's dangerous to go alone, take us! Don't waste time struggling,
+    there are plenty of people here for you.  We discuss why you
+    should ask for help quickly, and how to do it to get the best
+    response.  We discuss what it's like to be on both sides of the
+    support system.
+
+    https://cicero.xyz/v3/remark/0.14.0/github.com/bast/help-with-supercomputers/main/talk.md/
+
+  editlist:
+  - start: 1:17:18
+  - -: Intro
+  - 1:19:10: Outline and goals
+  - 1:21:58: Where to ask
+  - 1:23:38: Who is on the other side?
+  - 1:28:24: Subject, context, and formulating questions.
+  - 1:33:00: When to ask for help
+  - 1:35:14: XY problem, needing X but asking for Y
+  - 1:40:10: You are not alone
+  - 1:41:10: "Q&A: XY problems, chat, ..."
+  - end: 1:43:22
+
+
+- output: day1-tour-of-skills-and-tools.mkv
+  title: 1.4 A tour of scientific computing skills and tools
+  description: >-
+
+    There are so many tools available for computing. We'll describe
+    some of most important things and give you links to your next
+    steps.
+
+    https://hackmd.io/@AaltoSciComp/ToolsOfScientificComputing
+
+  editlist:
+  - start: 1:43:22
+  - -: Intro
+  - 1:45:30: Workflows and needs
+  - 1:50:25: What you need to take with you
+  - 1:55:40: Scientific programming languages
+  - 1:54:35: Editors and IDEs
+  - 1:55:40: Scripts vs notebooks
+  - 1:57:35: Starting a new project
+  - 1:59:17: Version control
+  - 2:03:58: Commenting and documenting
+  - 2:04:20: Keeping track of requirements
+  - 2:05:58: Using existing packages and frameworks
+  - 2:07:07: Working together with other people
+  - end: 2:09:57
+
+
+- output: day1-panel-discussion.mkv
+  title: "1.5 Q&A Panel discussion"
+  description: >-
+
+    Panel discussion on many questions that were raised throughout the
+    day.
+
+  editlist:
+  - start: 2:20:11
+  - 2:21:40: Notebooks vs scripts
+  - 2:29:15: How to version your data
+  - 2:35:50: When you don't have someone to ask for help / CodeRefinery workshops
+  - 2:39:19: Keeping track of requirements and dependencies
+  - 2:43:45: Data handling in C++
+  - 2:47:15: Role of containers, such as docker and singularity, in scientific computing.
+  - 2:53:50: Functions vs classes
+  - 3:02:35: Difference between HPC and scientific computing
+  - 3:06:30: Wrapping up
+  - 3:07:10: Estimating HPC resources
+  - end: 3:10:50
+
+
+- output: day1-connecting.mkv
+  title: 1.6 Connecting to the cluster
+  description: >-
+
+    How to connect to the cluster.  This is in preparation for
+    tomorrow, and not needed right now.  We give various demos, but
+    you need to figure it out for yourself later.
+
+    https://scicomp.aalto.fi/triton/tut/connecting/
+
+  editlist:
+  - start: 3:20:40
+  - -: Background
+  - 03:21:39: Command line vs other methods
+  - 03:22:00: What we are doing today
+  - 03:23:22: Connecting methods
+  - 3:26:24: Accounts
+  - 3:26:50: Connecting via ssh
+  - 3:32:35: ssh via PuTTY
+  - 3:35:00: "Other connecting methods: Open OnDemand and JupyterHub, virtual desktop"
+  - 3:35:50: What you need for tomorrow
+  - end: 3:43:29
+
+
+#- output: dayX-.mkv
+#  title: 
+#  description: >-
+#
+#  editlist:
+#  - start: 
+#  - end: 
+#
+#
+#- output: dayX-.mkv
+#  title: 
+#  description: >-
+#
+#  editlist:
+#  - start: 
+#  - end: 
+
