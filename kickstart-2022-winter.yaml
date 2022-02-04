@@ -353,12 +353,80 @@
 
 
 
-#- input: day3-obs.mkv
-#- output: day2-.mkv
-#  title: 3.
-#  description: >-
-#
-#  editlist:
-#  - start: 
-#  - end: 
+- input: day3-obs.mkv
+- output: day3-icebreaker.mkv
+  title: 3.0 Icebreaker and intro
+  description: >-
+    Introduction of day 3. 
+  editlist:
+  - start: 
+  - end: 
 
+
+- output: day3-intro-array.mkv
+  title: 3.1 Introduction to array jobs
+  description: >-
+    When there is no dependency or communication among the individual program runs, these individual runs 
+    can be run in parallel on separate Slurm jobs called array jobs.
+
+    https://scicomp.aalto.fi/triton/tut/array/
+
+  editlist:
+  - start: 10:00
+  - 10:00: Your first array job
+  - 10:00: Reading input files  
+  - end: 10:00
+  - start: 10:00:00
+  - -: Exercise introduction
+  - end: 10:00:00
+  - start: 10:00:00
+  - -: Going over the exercises
+  - end: 10:00:00
+
+- output: day3-parallel.mkv
+  title: 3.2 Parallel computing
+  description: >-
+    Parallel computing is what HPC is really all about: processing things on more 
+    than one processor at once. By now, you should have 
+    read all of the previous tutorials.
+
+  https://scicomp.aalto.fi/triton/tut/parallel/
+  editlist:
+  - start: 10:00
+  - 10:00: Parallel programming models
+  - 10:00: Running multithreaded/multiprocess applications  
+  - end: 10:00
+  - start: 10:00:00
+  - -: Exercise introduction
+  - end: 10:00:00
+  - start: 10:00:00
+  - -: Going over the exercises
+  - end: 10:00:00
+
+- output: day3-CSC-l2l.mkv
+  title: 3.3 Laptops to Lumi, Jussi Enkovaara, CSC
+  description: >-
+    What if you need more than what a university can provide? 
+    In Finland, CSC have even more resources, and this is a tour of them.
+
+    https://github.com/AaltoSciComp/scicomp-docs/raw/master/training/scip/CSC-services_022022.pdf
+  editlist:
+  - start: 11:11
+  - 11:11: Q&A
+  - end: 11:11
+
+- output: day3-gpus.mkv
+  title: 3.4 GPU computing
+  description: >-
+    GPUs, short for graphical processing unit, are massively-parallel processors 
+    that are optimized to perform parallel operations. Computations that might 
+    take days to run on CPUs, take substantially less time on GPUs.
+
+    https://scicomp.aalto.fi/triton/tut/gpu/
+  editlist:
+  - start: 10:00
+  - 10:00: GPU jobs
+  - 10:00: Compiling CUDA-based code
+  - 10:00: Examples
+  - 10:00: Monitoring GPUs  
+  - end: 10:00
