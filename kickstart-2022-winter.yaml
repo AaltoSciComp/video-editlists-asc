@@ -357,76 +357,120 @@
 - output: day3-icebreaker.mkv
   title: 3.0 Icebreaker and intro
   description: >-
-    Introduction of day 3. 
+    Introduction of day 3.  Most people will go straight to the other
+    videos.
   editlist:
-  - start: 
-  - end: 
+  - start: 10:10
+  - end: 23:13
 
 
-- output: day3-intro-array.mkv
-  title: 3.1 Introduction to array jobs
+    - output: day3-intro-array.mkv
+  title: 3.1 Array jobs
   description: >-
-    When there is no dependency or communication among the individual program runs, these individual runs 
-    can be run in parallel on separate Slurm jobs called array jobs.
+    When there is no dependency or communication among the individual
+    program runs, these individual runs can be run in parallel on
+    separate Slurm jobs called array jobs.
 
     https://scicomp.aalto.fi/triton/tut/array/
 
   editlist:
-  - start: 10:00
-  - 10:00: Your first array job
-  - 10:00: Reading input files  
-  - end: 10:00
-  - start: 10:00:00
-  - -: Exercise introduction
-  - end: 10:00:00
-  - start: 10:00:00
+  - start: 23:13
+  - -: Review of serial jobs
+  - 24:47: Array jobs
+  - 30:24: Your first array job
+  - 37:27: "Exercise: run an array job yourself"
+  - end: 39:57
+  - start: 47:42
+  - -: "Q&A from exercise"
+  - 49:48: Ways of using array jobs
+  - 51:25: Reading input files
+  - 52:44: Hardcoding options in the scripts
+  - 54:28: Parameters from a file
+  - 56:58: Advanced, chunking, etc.
+  - 58:00: "Q&A"
+  - 1:01:07: Exercise introduction
+  - end: 1:03:45
+  - start: 1:26:50
   - -: Going over the exercises
-  - end: 10:00:00
+  - 1:35:00: "Q&A"
+  - end: 1:37:15
 
 - output: day3-parallel.mkv
   title: 3.2 Parallel computing
   description: >-
-    Parallel computing is what HPC is really all about: processing things on more 
-    than one processor at once. By now, you should have 
-    read all of the previous tutorials.
+    Parallel computing is what HPC is really all about: processing
+    things on more than one processor at once. By now, you should have
+    read all of the previous tutorials.  Here, we learn about the
+    different parallel paradigms (shared memory, message passing,
+    OpenMP, MPI, array jobs, etc.) and see how they are used and
+    configured in Slurm.
 
-  https://scicomp.aalto.fi/triton/tut/parallel/
+    https://scicomp.aalto.fi/triton/tut/parallel/
   editlist:
-  - start: 10:00
-  - 10:00: Parallel programming models
-  - 10:00: Running multithreaded/multiprocess applications  
-  - end: 10:00
-  - start: 10:00:00
-  - -: Exercise introduction
-  - end: 10:00:00
-  - start: 10:00:00
-  - -: Going over the exercises
-  - end: 10:00:00
+  - start: 1:37:20
+  - -: Parallel programming models
+  - 1:47:20: User perspective, necessary support in programs
+  - 1:51:48: Embarrassingly parallel via array jobs
+  - 1:52:17: Running multithreaded/multiprocess applications
+  - 1:59:09: Message passing and MPI
+  - 2:08:10: Discussion of exercises
+  - end: 2:10:55
 
 - output: day3-CSC-l2l.mkv
   title: 3.3 Laptops to Lumi, Jussi Enkovaara, CSC
   description: >-
-    What if you need more than what a university can provide? 
-    In Finland, CSC have even more resources, and this is a tour of them.
+    What if you need more than what a university can provide?  In
+    Finland, CSC (https://csc.fi, https://docs.csc.fi) have even more
+    resources, and this is a tour of them.
 
     https://github.com/AaltoSciComp/scicomp-docs/raw/master/training/scip/CSC-services_022022.pdf
   editlist:
-  - start: 11:11
-  - 11:11: Q&A
-  - end: 11:11
+  - start: 2:20:57
+  - -: About this talk, about CSC
+  - 2:22:32: Introduction
+  - 2:25:30: About CSC
+  - 2:37:13: CSC computing services
+  - 2:42:53: CSC cloud computing services
+  - 2:44:45: Lumi
+  - 2:47:39: CSC data management and storage services
+  - 2:50:02: "Other services: training, visualization, expert services, ..."
+  - 2:52:35: Getting access to the services
+  - 2:53:50: Q&A
+  - end: 3:03:35
+
 
 - output: day3-gpus.mkv
   title: 3.4 GPU computing
   description: >-
-    GPUs, short for graphical processing unit, are massively-parallel processors 
-    that are optimized to perform parallel operations. Computations that might 
-    take days to run on CPUs, take substantially less time on GPUs.
+    GPUs, short for graphical processing unit, are massively-parallel
+    processors that are optimized to perform parallel
+    operations. Computations that might take days to run on CPUs, take
+    substantially less time on GPUs.  We discuss how to use them with Slurm
 
     https://scicomp.aalto.fi/triton/tut/gpu/
   editlist:
-  - start: 10:00
-  - 10:00: GPU jobs
-  - 10:00: Compiling CUDA-based code
-  - 10:00: Examples
-  - 10:00: Monitoring GPUs  
-  - end: 10:00
+  - start: 3:19:44
+  - -: What's a GPU and why?
+  - 3:40:24: GPU jobs on Slurm
+  - 3:42:22: Machine learning frameworks
+  - 3:43:40: Tensorflow example
+  - 3:48:32: Selecting a certain architecture
+  - 3:49:08: Warning about srun in GPU jobs
+  - 3:51:00: GPU monitoring (Aalto specific)
+
+  - 3:56:35: "Q&A: available GPUs (Aalto) architectures"
+  - 3:58:14: Exercises (as demos)
+  - 4:02:39: Q&A
+  - end: 4:04:50
+
+- output: day3-outro.mkv
+  title: 3.5 Day 3 and workshop wrap-up
+  description: >-
+    Wrap up of the workshop, including some hints about what to do
+    next.
+  editlist:
+  - start: 4:04:50
+  - -: Priorities and fairshare scheduling
+  - 4:08:00: About course, feedback, we are here for you
+  - 4:10:00: Q&A
+  - end: 4:15:43
