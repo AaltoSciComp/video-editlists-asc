@@ -6,9 +6,12 @@
     useful to the people who attended the workshop and want to review
     later.
 
+
     Playlist: https://www.youtube.com/playlist?list=PLZLVmS9rf3nOmS1XIWTB0Iu7Amvf79r-f
 
+
     Workshop webpage: https://scicomp.aalto.fi/training/scip/kickstart-2022-summer/
+
 
     Aalto Scientific Computing: https://scicomp.aalto.fi/
 
@@ -22,8 +25,8 @@
     https://scicomp.aalto.fi/training/kickstart/intro/
 
   editlist:
-  - start: 
-  - end: 
+  - start: 00:09:04
+  - end: 00:18:15
 
 
 - output: day1-from-data-storage-to-your-science.mkv
@@ -32,17 +35,17 @@
     Data is how most computational work starts, whether it is
     externally collected, simulation code, or generated. And these
     days, you can work on data even remotely, and these workflows
-    aren’t obvious. We discuss how data storage choices lead to
+    aren't obvious. We discuss how data storage choices lead to
     computational workflows.
 
     https://hackmd.io/@AaltoSciComp/SciCompIntro
 
   editlist:
-  - start: 
-  - end: 
+  - start: 00:18:15
+  - end: 00:36:17
 
 
-- output: day1-scicomp-workflows.mkv
+- output: day1-cooking-metaphor-to-parallel-computing.mkv
   title: 1.2 What is parallel computing?  An analogy with cooking.
   description: >-
     In workshops such as this, you will hear lots about parallel
@@ -53,26 +56,47 @@
     https://docs.google.com/presentation/d/e/2PACX-1vQLTzWkRy7Du3jjPJ6Y9BqKczU_JcSTEL6XsndrNJ7ylzi4RWeEy8lhfWZQu_lpwbAKroh51qqLoPFG/pub
 
   editlist:
-  - start: 
-  - end: 
+  - start: 00:36:17
+  - 00:39:25: "Scaling on one computer: OpenMP, MPI"
+  - 00:44:48: "Scaling across computers"
+  - 00:48:06: GPUs
+  - 00:50:34: Take-home messages
+  - end: 01:03:57
 
 
 - output: day1-the-humans-of-scientific-computing.mkv
   title: "1.3 Behind the scenes: the humans of scientific computing"
   description: >-
-    Who are we that provide these services. What makes it such a
-    fascinating career? Learn about what goes on behind the scenes and
-    how you could join us.
+    Who are we that provide these services? What makes it such a
+    fascinating career?  How did we learn what we know?  Learn about
+    what goes on behind the scenes and how you could join us.
 
   editlist:
-  - start: 
-  - stop: 
+  - start: 01:14:27
+  - stop: 01:33:23
 
-- output: day1-tour-of-skills-and-tools.mkv
-  title: 1.4 SSH (secure shell) tips and tricks
+- output: day1-python-conda.mkv
+  title: "1.4 How you actually install software on the cluster: an example case (Conda and Python)"
   description: >-
-    Remembering server address… Another login? Another password
-    prompt? Again? Wouldn’t it be nice to just have a key instead of a
+    Software installation is one of the questions we most often
+    get. Usually, on clusters, this happens via environments, which
+    allows you to install specific software per-project. We’ll give a
+    demonstration of how these work in Python. Materials for demo:
+    Python environments with Conda.
+
+    https://scicomp.aalto.fi/triton/apps/python-conda/
+
+  editlist:
+  - start: 01:34:21
+  - 01:36:29: How things usually work with conda, quick demo
+  - 01:49:12: "Q&A"
+  - stop: 01:57:51
+
+- output: day1-ssh-tips-and-tricks.mkv
+  title: 1.5 SSH (secure shell) tips and tricks
+  description: >-
+    Remembering server address... Another login? Another password
+    prompt? Again? Wouldn't it be nice to just have a key instead of a
     keycode that you need to type in? Here, we will show you how to
     set up your computer to easily connect to the server(s) you
     need. And we will explain the process from keys to config. While
@@ -82,32 +106,39 @@
     https://scicomp.aalto.fi/scicomp/ssh/
 
   editlist:
-  - start: 
-  - end: 
+  - start: 02:08:06
+  - 02:09:44: Windows
+  - 02:12:30: Windows, creating ssh keys
+  - 02:20:57: Windows, ssh key password manager
+  - 02:25:40: Q&A (break, zoom stopped working...)
+  - 02:28:37: Windows, continue with connecting
+  - 02:29:59: Windows, ssh config file
+  - 02:39:12: Q&A
+  - 02:41:34: Linux/Mac (same general idea as Windows).  Creating ssh key.
+  - 02:44:09: Linux/Mac, using the key
+  - 02:46:08: Linux/Mac, ssh config file
+  - 02:50:56: Linux/Mac, ssh key password manager
+  - 02:52:00: SFTP for accessing files remotely (Linux)
+  - 02:54:05: "(aside) Windows: data remotely"
+  - 02:56:43: Q&A
+  - end: 03:02:40
 
 
 - output: day1-connecting.mkv
-  title: 1.5 Connecting to the cluster
+  title: 1.6 Connecting to the cluster
   description: >-
 
     How to connect to the cluster.  This is in preparation for
     tomorrow, and not needed right now.  We give various demos, but
     you need to figure it out for yourself later.
 
+    Watch the previous video for details on SSH.
+
     https://scicomp.aalto.fi/triton/tut/connecting/
 
   editlist:
-  - start: 3:20:40
-  - -: Background
-  - 03:21:39: Command line vs other methods
-  - 03:22:00: What we are doing today
-  - 03:23:22: Connecting methods
-  - 3:26:24: Accounts
-  - 3:26:50: Connecting via ssh
-  - 3:32:35: ssh via PuTTY
-  - 3:35:00: "Other connecting methods: Open OnDemand and JupyterHub, virtual desktop"
-  - 3:35:50: What you need for tomorrow
-  - end: 3:43:29
+  - start: 03:15:07
+  - end: 03:18:45
 
 
 
