@@ -1,0 +1,65 @@
+- input: day1.mkv
+- output: community-teaching.mkv
+  title: Community teaching workshop (intro), 2022 June - CodeRefinery
+  description: >-
+    In 2020, we got farther from our offices but closer to each
+    other. If you could adapt to the circumstances, a huge number of
+    possibilities were opened - in particular with collaborative
+    teaching. In this training, you will learn how we use
+    them. Teaching from 2019 is almost obsolete - join us to learn
+    more.
+
+    Teaching is a profession, but also something that everyone needs
+    to be able to do to some degree, since everyone has their own
+    personal specialties they will either teach or mentor.
+
+    Broadly, this covers:
+
+    - Tools of teaching: how to make the most out of online (and other) teaching.
+
+    - Workshop organization, collaboratively: our vision of teaching together outside of our silos.
+
+    - Socio-technical factors: social and technical barriers to learning, why you need to care, and what you can do about them.
+
+    - Lesson development, collaboratively: how to design lessons and teaching materials so that they can be open and shared.
+
+
+    This is the first hour of a three-hour workshop.
+
+    Material: https://coderefinery.github.io/community-teaching/
+
+    Workshop page (HackMD): https://hackmd.io/TJoDtBooTIuEYRXGgMaVVQ?view
+
+    CodeRefinery manuals: https://coderefinery.github.io/manuals/
+
+    CodeRefinery: https://coderefinery.github.ioo
+
+  editlist:
+    - start: 00:11:07
+    - -: Icebreaker (demo of livestream pre-session)
+    - 00:21:46: Introduction
+    - 00:23:19: Introducing the instructors
+    - 00:26:33: Welcome and introduction about the course.
+    - 00:31:53: About CodeRefinery
+    - 00:33:47: "Section: Teaching tools"
+    - 00:35:40: Teaching online
+    - 00:38:40: Team teaching
+    - 00:43:10: HackMD
+    - 00:47:22: Teams
+    - 00:51:44: Livestreaming
+    - 00:56:02: Instructor tech setup
+    - 00:58:10: Video recording
+    - 01:00:42: Video editing
+    - 01:00:56: "Section: Workshop organization"
+    - 01:01:01: Why teach together?
+    - 01:05:24: Collaboration models
+    - 01:06:55: Workshop roles
+    - 01:11:14: "Section: Social-technical factors"
+    - 01:11:38: Why are computers hard?
+    - 01:12:28: Diversity and inclusion
+    - 01:12:34: "Section: Lesson design"
+    - 01:12:42: Lesson development with version control
+    - 01:15:56: Backwards lesson design
+    - 01:19:20: "Section: conclusion"
+    - 01:19:21: Future of CodeRefinery, how to get involved
+    - stop: 01:24:25
