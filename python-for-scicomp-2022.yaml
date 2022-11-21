@@ -1,0 +1,479 @@
+- workshop_title: Python for Scientific Computing 2022
+- workshop_description: >
+    Python for Scientific Computing is a bridge between basic Python
+    courses and scientific work with Python.  This is a
+    basic to intermediate course in Python tools such as NumPy, SciPy,
+    Matplotlib, and Pandas.  It also covers some more advanced tools,
+    such as Binder, releasing software, data formats, etc.  It is
+    suitable for people who have a basic understanding of Python
+    and want to know some internals and important libraries for
+    science.  We don't cover anything in too much depth, but we do
+    introduce you to all of the main tools you will need.
+
+
+    This course was put on as a collaboration between partners in
+    Finland, Norway, and Sweden, coordinated by Aalto Scientific
+    Computing.
+
+
+    Links:
+
+    - Playlist: https://www.youtube.com/playlist?list=PLZLVmS9rf3nOm3xkYuInBWPUvS93sAUlk
+
+    - Course material: https://aaltoscicomp.github.io/python-for-scicomp/
+
+    - Workshop webpage: https://scicomp.aalto.fi/training/scip/python-for-scicomp-2022/
+
+    - Aalto Scientific Computing: https://scicomp.aalto.fi/
+
+    - CodeRefinery: https://coderefinery.org
+
+- input: day1-obs--intro-jupyter-numpy-pandas1.mkv
+
+#- output: day1-intro.mkv
+#  title: 1.1 Intro
+#  description: >-
+#    The introduction to the workshop which explains the outline and
+#    practical livestream mechanics.
+#
+#    https://scicomp.aalto.fi/training/scip/python-for-scicomp/intro/
+#
+#  editlist:
+#    - start: 17:22
+#    - end: 32:31
+#
+#
+#- output: day1-jupyter.mkv
+#  title: 1.2 Jupyter
+#  description: >-
+#    We discuss Jupyter, its advantages and disadvantages, and how to
+#    use it.  Our main focus is establishing a common ground for our
+#    main way of doing demos for the rest of the course, we don't go
+#    too deep.
+#
+#    https://aaltoscicomp.github.io/python-for-scicomp/jupyter/
+#
+#  editlist:
+#    - start: 33:50
+#    - -: Intro
+#    - 36:25: Launching Jupyter
+#    - 38:15: Tour of the interface
+#    - 46:10: Exercises 1, 2
+#    - end: 47:33
+#    - start: 59:00
+#    - -: "Post-exercises Q&A"
+#    - 1:01:25: Why Jupyter, advantages and disadvantages
+#    - end: 1:05:55
+#
+#
+#
+#- output: day1-numpy.mkv
+#  title: 1.3 Numpy
+#  description: >-
+#    Numpy is the standard Python array package.  It provides not only
+#    the basic data structure, but also plenty of operations on this
+#    data.  By using built-in functions, many operations can be
+#    vectorized and made much faster (just like they are done in any
+#    other high-level numerical language).  Many other scientific and
+#    numerical packages are build using Numpy, so it is very important
+#    to learn to use it well.
+#
+#    https://aaltoscicomp.github.io/python-for-scicomp/numpy/
+#
+#  editlist:
+#    - start: 1:16:29
+#    - 1:17:10: What is the array object?
+#    - 1:19:30: Python vs Numpy speed test
+#    - 1:22:35: Ways to create arrays
+#    - 1:28:20: Array math
+#    - 1:30:15: Exercises 1, 2
+#    - end: 1:31:18
+#    - start: 1:46:12
+#    - 1:46:47: Indexing and slicing
+#    - 1:52:58: Universal functions
+#    - 1:56:30: Exercises 3, 4, (5)
+#    - end: 1:57:24
+#    - start: 2:09:05
+#    - -: Q&A
+#    - 2:15:00: wrap-up and conclusions
+#    - end: 2:16:20
+#
+#
+#
+#- output: day1-pandas.mkv
+#  title: 1.4 Pandas 1/2
+#  description: >-
+#    Pandas is the standard tabular data package for Python.  It allows
+#    you to do plenty of operations quickly and seamlessly.  In this
+#    lesson, we go over the basics of using Pandas.  After this lesson,
+#    you won't know everything but you will be able to read the docs
+#    and figure out from more yourself, which is what almost everyone
+#    has to do anyway.
+#
+#    Continued in part 2: ... coming tomorrow
+#
+#    https://aaltoscicomp.github.io/python-for-scicomp/pandas/
+#
+#  editlist:
+#    - start: 2:26:38
+#    - 2:27:32: What is pandas?
+#    - 2:28:38: Demo and basic structure of a DataFrame
+#    - 2:40:00: Selecting from the dataframe
+#    - 2:51:30: Exercise 1
+#    - end: 2:58:55
+#    - start: 3:01:28
+#    - -: Tidy data
+#    - end: 3:11:44
+#    - start: 3:13:10
+#    - -: Q&A
+#    - end: 3:15:40
+#
+#
+#- input: day2-obs--pandas-visualization-dataformats.mkv
+#
+#
+#- output: day2-pandas2.mkv
+#  title: 2.1 Pandas 2/2
+#  description: >-
+#    Pandas is the standard tabular data package for Python.  It allows
+#    you to do plenty of operations quickly and seamlessly.  In this
+#    lesson, we go over the basics of using Pandas.  After this lesson,
+#    you won't know everything but you will be able to read the docs
+#    and figure out from more yourself, which is what almost everyone
+#    has to do anyway.
+#
+#    Continued from part 1: https://www.youtube.com/watch?v=MRvm9NFk5Jw
+#
+#    https://aaltoscicomp.github.io/python-for-scicomp/pandas/
+#
+#  editlist:
+#    - start: 27:00
+#    - 27:10: Questions about indexing, loc, iloc
+#    - 33:40: Working with dataframes, basic operations
+#    - end: 54:19
+#    - start: 55:19
+#    - -: Groupby
+#    - 57:40: Exercises 2
+#    - end: 58:32
+#    - start: 1:09:35
+#    - -: Plotting with pandas
+#    - end: 1:14:06
+#
+#- output: day2-visualization.mkv
+#  title: 2.2 Visualizaiton
+#  description: >-
+#    Generating figures is part of the scientific process.  This should
+#    not be manual, but ideally they should be automatically generated in
+#    final form.  This makes your work reproducible, getting around
+#    "oh no I can't make it again" problems.
+#
+#    In this lesson, we discuss the matplotlib Python library which can
+#    be used to make figures like this.  This isn't the only Python
+#    tool, and may not even be the best one, but it is the base of many
+#    other tools and a good point to learn the basic concepts you will
+#    apply over and over.
+#
+#    https://aaltoscicomp.github.io/python-for-scicomp/data-visualization/
+#
+#  editlist:
+#    - start: 1:24:30
+#    - 1:27:00: Motivation of reproducible figures
+#    - 1:30:00: Getting started with matplotlib
+#    - 1:35:15: Exercise 1
+#    - end: 1:38:07
+#    - start: 1:52:55
+#    - -: Q&A
+#    - 1:54:32: Two matplotlib interfaces, object-oriented or pyplot
+#    - 1:57:25: Styling and customizing plots
+#    - 2:00:55: Exercises Customization-{1,2,3}
+#    - end: 2:08:22
+#    - start: 2:32:24
+#    - 2:33:38: Exercise Customization-3 demo (find a similar plot from a gallery and adapt it)
+#    - 2:39:25: Example of Seaborn
+#    - 2:39:58: Summary
+#    - end: 2:42:22
+#
+#- output: day2-dataformats.mkv
+#  title: 2.3 Data formats
+#  description: >-
+#
+#    Input/output bandwidth is just as much a consumable resource as
+#    CPU or memory.  And data formats are important for both ease
+#    (human effort) and time taken to read data.  Here, we will go over
+#    the basic concepts and some important data formats which you may
+#    need in your work.
+#
+#    https://aaltoscicomp.github.io/python-for-scicomp/data-formats/
+#
+#  editlist:
+#    - start: 2:43:30
+#    - end: 2:44:26
+#    - start: 2:25:18
+#    - -: Why are data formats important?
+#    - 2:47:00: Two most common data formats (tidy and array)
+#    - 2:52:47: File formats, considerations
+#    - 2:59:00: csv
+#    - 3:08:30: Feather
+#    - 3:12:23: Parquet
+#    - 3:15:15: HDF5
+#    - 3:16:58: NetCDF
+#    - 3:18:35: npy (numpy data format)
+#    - 3:19:45: Exercises
+#    - 3:20:00: Why binary formats over text formats? Main considerations
+#    - 3:21:45: Things to remember / questions to ask yourself
+#    - end: 3:22:40
+#    - start: 3:23:20
+#    - -: sqlite
+#    - end: 3:25:22
+#    - start: 3:27:20
+#    - -: Discussion
+#    - 3:29:50: Structural format vs semantic formats
+#    - 3:30:50: "Conclusion, Relation of data formats to the rest of workflow: reducing bottlenecks"
+#    - end: 3:33:00
+#
+## Day 3
+#- input: day3-obs--scripts-scipy-libraries-parallel.mkv
+#
+#- output: day3-scripts.mkv
+#  title: 3.1 Scripts
+#  description: >-
+#
+#    Thus far, we have been running Python code from Jupyter notebooks
+#    (though the same principle applies to other environments such as
+#    Spyder or IDSs).  This doesn't easily allow you to scale up or
+#    scale out: if you need to run the same, or slightly different,
+#    code many times, it is hard.  There are ways to do this within
+#    Jupyter, but in the end you will want to escape and make command
+#    line interfaces.  This is the universal interface for automation,
+#    scale-out, and parameterization of work.  We give the quickest
+#    intro to this.
+#
+#    https://aaltoscicomp.github.io/python-for-scicomp/scripts/
+#
+#  editlist:
+#    - start: 21:56
+#    - 22:20: Why make scripts?
+#    - 25:00: Script example type-along (exercise 1)
+#    - end: 35:35
+#    - start: 36:50
+#    - -: Splitting part of the script into a module and importing it
+#    - end: 43:48
+#    - start: 52:45
+#    - -: Command line argument parsing
+#    - end: 1:08:24
+#    - start: 1:14:40
+#    - 1:15:50: Discussion of command-line argument usage
+#    - 1:16:40: Configuration files
+#    - 1:19:25: Q&A (argparse vs click)
+#    - end: 1:21:30
+#
+#
+#- output: day3-scipy.mkv
+#  title: 3.2 Scipy
+#  description: >-
+#
+#    Scipy is a Python interface to a large amount of useful code, a
+#    lot of it written in C or Fortran.  Here, we can't really try to
+#    teach everything about it, but we provide some discussions and
+#    examples.
+#
+#    https://aaltoscicomp.github.io/python-for-scicomp/scipy/
+#
+#  editlist:
+#    - start: 1:32:57
+#    - 1:34:50: What is scipy?
+#    - 1:36:30: Introduction to exercises
+#    - end: 1:38:03
+#    - start: 1:52:40
+#    - -: Post-exercise discussion
+#    - end: 1:56:40
+#
+#
+#- output: day3-libraries.mkv
+#  title: 3.3 Libraries
+#  description: >-
+#
+#    Your code doesn't exist alone.  It is one part of a large
+#    ecosystem, where many other things exist for you to build off of.
+#    This is (more than anything) a discussion about the broader
+#    ecosystem, what you would want to build off of, and what you 
+#
+#    https://aaltoscicomp.github.io/python-for-scicomp/libraries/
+#
+#  editlist:
+#    - start: 1:56:50
+#    - 1:57:15: Motivation and introduction
+#    - 2:00:17: The SciPy ecosystem
+#    - 2:01:51: Connecting Python to other languages
+#    - 2:03:05: How can you tell if you should use some library?
+#    - 2:06:58: Making your work reuseable
+#    - 2:07:58: Exercise discussion (not done)
+#    - 2:07:55: cython
+#    - 2:09:10: "Q&A: building a package, dependency mismatches"
+#    - end: 2:13:50
+#
+#
+#- output: day3-parallel.mkv
+#  title: 3.4 Parallel
+#  description: >-
+#
+#    Parallel programming: doing more than one thing at a time.  It is
+#    often needed when you need more computer power, and there are a
+#    variety of ways to do it.  We don't go much into depth, but we do
+#    tell the basics.
+#
+#    https://aaltoscicomp.github.io/python-for-scicomp/parallel/
+#
+#  editlist:
+#    - start: 2:20:53
+#    - 2:22:35: Modes of parallelism
+#    - 2:24:50: Parallel paradigms (embarrassingly, shared memory, message passing)
+#    - 2:27:35: Python's global interpreter lock (GIL)
+#    - 2:29:58: Python's multiprocessing module
+#    - 2:35:10: Message Passing Interface (MPI) in Python
+#    - 2:41:40: Exercise introduction (multiprocessing, MPI)
+#    - end: 2:43:00
+#    - start: 3:09:27
+#    - -: Exercise discussion
+#    - 3:11:05: Dask
+#    - 3:17:13: task queues
+#    - 3:18:10: Summary/wrap-up
+#    - end: 3:18:35
+#    - start: 3:22:15
+#    - -: Dask, how to get the results out of the arrays
+#    - end: 3:23:13
+#
+#
+#- output: day3-outro.mkv
+#  title: 3.5 Outro of day 3
+#  description: >-
+#
+#    Outro of day 3 - general discussion about the course.
+#
+#  editlist:
+#    - start: 3:19:55
+#    - end: 3:22:15
+#    - start: 3:23:13
+#    - end: 3:26:35
+#
+### Day 4
+#- input: day4-obs--dependencies-binder-packaging-panel-outro.mkv
+#
+#- output: day4-dependencies.mkv
+#  title: 4.1 Dependencies
+#  description: >-
+#
+#    Dependency management with environments and requirement files in
+#    Python.
+#
+#    When you have projects that depend on other libraries, you need
+#    some way of recording and managing these.  Here, we learn of the
+#    basic concepts, how to record dependencies (requirements.txt,
+#    environment.yml), and how to use the virtual environments/conda
+#    environments.
+#
+#    https://aaltoscicomp.github.io/python-for-scicomp/dependencies/
+#
+#  editlist:
+#    - start: 17:19
+#    - 19:45: Demo, two versions of numpy on one computer
+#    - 27:20: Exercise 1, discussion
+#    - 35:01: "conda, pip, and PyPI: installing packages"
+#    - 55:45: "Virtual environments: installing things per-project"
+#    - 59:38: Recording dependencies with requirements.txt and environment.yml
+#    - end: 1:11:43
+#
+#
+#- output: day4-binder.mkv
+#  title: 4.2 Binder
+#  description: >-
+#
+#    A demo of the Binder service.
+#
+#    Binder (mybinder.org) is a cloud service for running Jupyter
+#    in a reproducible software environment.  It uses requirements
+#    files in various languages (requirements.txt, environment.yml, and
+#    similar for other languages) to create an environment out of a
+#    repository (Github, Gitlab, Zenodo).
+#
+#    https://aaltoscicomp.github.io/python-for-scicomp/binder/
+#
+#  editlist:
+#    - start: 1:22:35
+#    - 1:25:10: What is binder?
+#    - 1:28:40: Why is it sometimes not enough to share your code?
+#    - 1:33:58: Demo of Binder (begin)
+#    - 1:34:50: Put the code into the notebook
+#    - 1:36:00: Putting the notebook on Github
+#    - 1:41:10: Adding requirements.txt to the repository
+#    - 1:42:50: Binder's interface
+#    - 1:44:00: Adding binder's badge to the repository's readme file
+#    - 1:44:50: Launching binder, observing installations.
+#    - 1:45:50: Q&A
+#    - 1:48:28: Notebook starts, see what you can do.
+#    - 1:29:20: Zenodo and getting a DOI (begin)
+#    - 1:51:40: Linking Zenodo to Github
+#    - 1:53:00: Making a release on Github
+#    - 1:54:30: Viewing result on Github
+#    - 1:55:10: Binder + Zenodo
+#    - 1:55:45: Further steps/ideas, discussion
+#    - end: 2:00:00
+#
+#
+#- output: day4-packaging.mkv
+#  title: 4.3 Packaging
+#  description: >-
+#
+#    How to package and distribute software you write.
+#
+#    After you create code, what comes next: how do you distribute it?
+#    Here, we discuss how to package and distribute your work via
+#    setup.py and the Python Package Index and other things.
+#
+#    https://aaltoscicomp.github.io/python-for-scicomp/packaging/
+#
+#  editlist:
+#    - start: 2:12:28
+#    - 2:13:58: What is packaging?  How do you distribute code?
+#    - 2:15:05: Creating a new sample project
+#    - 2:16:20: Adding __init__.py to make it a package
+#    - 2:21:50: Making it installable with setup.py
+#    - 2:27:10: Adding the README.md file
+#    - 2:27:40: Installing using setup.py directly
+#    - 2:30:20: Using pip to install locally or from Github directly.
+#    - 2:32:54: Using PyPI (Python Package Index) to distribute packages
+#    - 2:33:50: Twine to upload, sdist to build the distribution
+#    - 2:36:54: Installing from PyPI, examining the package
+#    - 2:39:29: Discussion, when would you use this?
+#    - 2:40:52: Conda packages
+#    - 2:42:03: "Q&A: pip install -e, installing in other locations"
+#    - end: 2:43:25
+#
+#
+#- output: day4-paneldiscussion.mkv
+#  title: 4.4 Panel discussion
+#  description: >-
+#
+#    At the end of the course, we had a general panel discussion/Q&A
+#    session with all of these instructions.  We discuss many
+#    interesting topics.
+#
+#    IDEs, how to learn new languages, Julia vs Python and other
+#    languages, risks and benefits of sharing, licenses, processors
+#    (Apple M1, ARM, architectures, ...), etc.
+#
+#  editlist:
+#    - start: 2:43:25
+#    - end: 3:06:50
+#
+#
+#- output: day4-outro.mkv
+#  title: 4.5 Outro
+#  description: >-
+#
+#    The conclusion of the workshop, looking at feedback, some final
+#    discussion.
+#
+#  editlist:
+#    - start: 3:07:20
+#    - end: 3:21:55
