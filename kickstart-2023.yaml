@@ -1,4 +1,4 @@
-- workshop_title: HPC/SciComp Kickstart summer 2022
+- workshop_title: HPC/SciComp Kickstart summer 2023
 - workshop_description: >
     This is part of the Aalto Scientific Computing "Getting started
     with Scientific Computing" and "HPC Kickstart"
@@ -7,16 +7,16 @@
     later.
 
 
-    Playlist: https://www.youtube.com/playlist?list=PLZLVmS9rf3nOmS1XIWTB0Iu7Amvf79r-f
+    Playlist: https://www.youtube.com/playlist?list=PLZLVmS9rf3nMKR2jMglaN4su3ojWtWMVw
 
 
-    Workshop webpage: https://scicomp.aalto.fi/training/scip/kickstart-2022-summer/
+    Workshop webpage: https://scicomp.aalto.fi/training/scip/kickstart-2023/
 
 
     Aalto Scientific Computing: https://scicomp.aalto.fi/
 
 
-- input: day1-obs.mkv
+- input: day1-obs.mkvday1
 - output: day1-intro.mkv
   title: 1.0 Introduction
   description: >-
