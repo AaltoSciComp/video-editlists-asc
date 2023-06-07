@@ -1,36 +1,44 @@
 - workshop_title: HPC/SciComp Kickstart summer 2023
 - workshop_description: >
     This is part of the Aalto Scientific Computing "Getting started
-    with Scientific Computing" and "HPC Kickstart"
+    with Scientific Computing and HPC Kickstart" 2023
     workshop.  The videos are available to everyone, but may be most
     useful to the people who attended the workshop and want to review
     later.
 
-
     Playlist: https://www.youtube.com/playlist?list=PLZLVmS9rf3nMKR2jMglaN4su3ojWtWMVw
 
-
     Workshop webpage: https://scicomp.aalto.fi/training/scip/kickstart-2023/
-
 
     Aalto Scientific Computing: https://scicomp.aalto.fi/
 
 
-- input: day1-obs.mkvday1
+- input: day1-obs.mkv
+
+- output: day1-icebreaker.mkv
+  title: 1.1 Icebreaker
+  description: >-
+    General discussion before the workshop starts
+
+  editlist:
+  - start: 00:14:40
+  - end: 00:24:10
+
+
 - output: day1-intro.mkv
-  title: 1.0 Introduction
+  title: 1.2 Introduction
   description: >-
     General introduction to the workshop.
 
     https://scicomp.aalto.fi/training/kickstart/intro/
 
   editlist:
-  - start: 00:09:04
-  - end: 00:18:15
+  - start: 00:24:10
+  - end: 00:37:31
 
 
 - output: day1-from-data-storage-to-your-science.mkv
-  title: "1.1 From data storage to your science"
+  title: "1.3 From data storage to your science"
   description: >-
     Data is how most computational work starts, whether it is
     externally collected, simulation code, or generated. And these
@@ -41,12 +49,12 @@
     https://hackmd.io/@AaltoSciComp/SciCompIntro
 
   editlist:
-  - start: 00:18:15
-  - end: 00:36:17
+  - start: 00:37:43
+  - end: 00:50:05
 
 
 - output: day1-cooking-metaphor-to-parallel-computing.mkv
-  title: 1.2 What is parallel computing?  An analogy with cooking.
+  title: 1.4 What is parallel computing?  An analogy with cooking.
   description: >-
     In workshops such as this, you will hear lots about parallel
     computing and how you need it, but rarely get a understandable
@@ -56,89 +64,92 @@
     https://docs.google.com/presentation/d/e/2PACX-1vQLTzWkRy7Du3jjPJ6Y9BqKczU_JcSTEL6XsndrNJ7ylzi4RWeEy8lhfWZQu_lpwbAKroh51qqLoPFG/pub
 
   editlist:
-  - start: 00:36:17
-  - 00:39:25: "Scaling on one computer: OpenMP, MPI"
-  - 00:44:48: "Scaling across computers"
-  - 00:48:06: GPUs
-  - 00:50:34: Take-home messages
-  - end: 01:03:57
+  - start: 00:50:05
+  - end: 01:13:15
+
+
+- output: day1-how-big-is-my-calculation.mkv
+  title: "1.5 How big is my calculation? Measuring your needs"
+  description: >-
+    People often ask us "How many resources do I need to reserve?"
+    This is a good question to think about even before we get to the
+    cluster itself.  We go over how to think about estimating the
+    resources you are using on your own computer and how that scales to
+    larger problem sizes on the cluster.
+
+    https://scicomp.aalto.fi/triton/usage/program-size/
+  editlist:
+    - start: 01:24:00
+    - stop: 01:55:25
 
 
 - output: day1-the-humans-of-scientific-computing.mkv
-  title: "1.3 Behind the scenes: the humans of scientific computing"
+  title: "1.6 The humans of scientific computing"
   description: >-
     Who are we that provide these services? What makes it such a
     fascinating career?  How did we learn what we know?  Learn about
     what goes on behind the scenes and how you could join us.
 
   editlist:
-  - start: 01:14:27
-  - stop: 01:33:23
-
-- output: day1-python-conda.mkv
-  title: "1.4 How you actually install software on the cluster: an example case (Conda and Python)"
-  description: >-
-    Software installation is one of the questions we most often
-    get. Usually, on clusters, this happens via environments, which
-    allows you to install specific software per-project. We’ll give a
-    demonstration of how these work in Python. Materials for demo:
-    Python environments with Conda.
-
-    https://scicomp.aalto.fi/triton/apps/python-conda/
-
-  editlist:
-  - start: 01:34:21
-  - 01:36:29: How things usually work with conda, quick demo
-  - 01:49:12: "Q&A"
-  - stop: 01:57:51
-
-- output: day1-ssh-tips-and-tricks.mkv
-  title: 1.5 SSH (secure shell) tips and tricks
-  description: >-
-    Remembering server address... Another login? Another password
-    prompt? Again? Wouldn't it be nice to just have a key instead of a
-    keycode that you need to type in? Here, we will show you how to
-    set up your computer to easily connect to the server(s) you
-    need. And we will explain the process from keys to config. While
-    useful, this part is skippable if you are able to connect to
-    Triton (next section).
-
-    https://scicomp.aalto.fi/scicomp/ssh/
-
-  editlist:
-  - start: 02:08:06
-  - 02:09:44: Windows
-  - 02:12:30: Windows, creating ssh keys
-  - 02:20:57: Windows, ssh key password manager
-  - 02:25:40: Q&A (break, zoom stopped working...)
-  - 02:28:37: Windows, continue with connecting
-  - 02:29:59: Windows, ssh config file
-  - 02:39:12: Q&A
-  - 02:41:34: Linux/Mac (same general idea as Windows).  Creating ssh key.
-  - 02:44:09: Linux/Mac, using the key
-  - 02:46:08: Linux/Mac, ssh config file
-  - 02:50:56: Linux/Mac, ssh key password manager
-  - 02:52:00: SFTP for accessing files remotely (Linux)
-  - 02:54:05: "(aside) Windows: data remotely"
-  - 02:56:43: Q&A
-  - end: 03:02:40
-
+    - start: 01:55:25
+    - stop: 02:18:46
 
 - output: day1-connecting.mkv
-  title: 1.6 Connecting to the cluster
+  title: 1.7 Connecting to the cluster
   description: >-
-
     How to connect to the cluster.  This is in preparation for
     tomorrow, and not needed right now.  We give various demos, but
     you need to figure it out for yourself later.
 
-    Watch the previous video for details on SSH.
-
     https://scicomp.aalto.fi/triton/tut/connecting/
 
   editlist:
-  - start: 03:15:07
-  - end: 03:18:45
+    - start: 02:28:17
+    - end: 02:49:58
+
+- output: day1-cluster-shell.mkv
+  title: "1.8 Using the cluster from the command line"
+  description: >-
+      Now that we are connected, we will be doing a lot from the
+      command line interface.  This is a brief overview of what we can
+      do from the command line - with emphasis of what we need for the
+      next days.
+
+      In particular we clone the "hpc-examples" sample git repository
+      (https://github.com/AaltoSciComp/hpc-examples/) which will be
+      used in the future days.  The "shell crash course"
+      (https://scicomp.aalto.fi/scicomp/shell/) has a little bit more
+      stuff.
+
+      https://scicomp.aalto.fi/triton/tut/cluster-shell/
+  editlist:
+    - start: 03:24:00
+    - stop:  03:42:00
+    - start: 03:48:03
+    - stop: 03:49:16
+
+- output: day1-real-examples.mkv
+  title: "1.9 Real examples of cluster usage"
+  description: >-
+    We go straight to show two real examples: array jobs + MPI
+    (message-passing interface) that use the real power of the cluster.
+    We don't explain how, but we'll see that in the next two days.
+
+  editlist:
+    - start: 03:49:23
+    - 03:50:20: Ising model (Array job)
+    - 03:58:50: Lammps (MPI)
+    - end: 04:11:19
+
+- output: day1-qa.mkv
+  title: "1.10 Q&A and final comments, day 1"
+  description: >-
+    The final wrap-up / Q&A of day 1
+  editlist:
+    - start: 04:11:19
+    - stop: 04:26:26
+
+
 
 
 
