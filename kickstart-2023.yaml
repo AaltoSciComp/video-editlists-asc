@@ -378,11 +378,13 @@
 
 - input: day3-obs.mkv
 - output: day3-icebreaker.mkv
-  title: 3.0 Icebreaker and intro
+  title: 3.1 Icebreaker and intro
   description: >-
     Introduction of day 3.  Most people will go straight to the other
-    videos. This segment does however contain some useful discussion 
-    about the goals of the course.
+    videos. This segment does however contain some useful discussion
+    about the goals of the course and how you should approach
+    learning scientific computing, given how overwhelming this course
+    can seem.
   editlist:
   - start: 00:18:03
   - 00:23:10: 'Example workflow: processing these videos'
@@ -393,10 +395,13 @@
 
 
 - output: day3-parallel.mkv
-  title: 3.1 Different methods of parallel computing
+  title: 3.2 Different methods of parallel computing
   description: >-
-#    TODO: description
-    
+    Before we get to how to run parallel jobs, let's talk about the
+    different forms, since a person must keep these straight in order
+    to run them the right way on the cluster.  The forms are listed
+    below.
+
     https://scicomp.aalto.fi/triton/tut/parallel/
 
   editlist:
@@ -412,7 +417,7 @@
 
 
 - output: day3-array.mkv
-  title: 3.2 Array jobs
+  title: 3.3 Array jobs
   description: >-
     When there is no dependency or communication among the individual
     program runs, these individual runs can be run in parallel on
@@ -423,8 +428,8 @@
   editlist:
   - start: 00:58:12
   - stop: 00:59:56
-# Cuts out richard's audio issues, not sure if the jump is jarring though  
-  - start: 01:01:10 
+# Cuts out richard's audio issues, not sure if the jump is jarring though
+  - start: 01:01:10
   - 01:01:22: Overview of array jobs
   - 01:04:50: Your first array job
   - 01:11:44: Ways to use array jobs
@@ -439,10 +444,15 @@
 
 
 - output: day3-shared-memory.mkv
-  title: 3.3 Shared memory parallelism (part 1)
+  title: 3.4 Shared memory parallelism (part 1)
   description: >-
-#    TODO: description
-    
+    Shared memory or multiprocessing parallelism can scale to one node
+    and allow communication between processors on a node.  This is run
+    with `--cpus-per-task`.
+
+    See the second-to-next talk in the playlist to see us going over
+    the exercises.
+
     https://scicomp.aalto.fi/triton/tut/parallel-shared/
   editlist:
   - start: 01:55:26
@@ -450,14 +460,15 @@
   - 01:56:26: 'Example: running pi.py in parallel'
   - end: 02:01:51
 
- 
+
 - output: day3-CSC-l2l.mkv
-  title: 3.4 From laptops to LUMI - CSC resources for researchers, CSC
+  title: 3.5 From laptops to LUMI - CSC resources for researchers, CSC
   description: >-
     What if you need more than what a university can provide?  In
     Finland, CSC (https://csc.fi, https://docs.csc.fi) have even more
     resources, and this is a tour of them.
 
+    Slides from last year, this year's will be updated if we get them:
     https://github.com/AaltoSciComp/scicomp-docs/raw/master/training/scip/CSC-services_062022.pdf
   editlist:
   - start: 02:26:39
@@ -475,10 +486,11 @@
   - end: 03:09:00
 
 - output: day3-shared-memory2.mkv
-  title: 3.5 Shared memory parallelism (part 2)
+  title: 3.6 Shared memory parallelism (part 2)
   description: >-
-    TODO: description
-    
+    A follow up to the shared memory parallelism exercises after the
+    previous talk
+
     https://scicomp.aalto.fi/triton/tut/parallel-shared/
   editlist:
   - start: 03:09:00
@@ -491,10 +503,12 @@
 
 
 - output: day3-MPI.mkv
-  title: 3.6 MPI overview
+  title: 3.7 MPI overview
   description: >-
-#    TODO: description
-    
+    MPI (message-passing interface) is the standard way for jobs to
+    communicate across processes or nodes on a massive scale.  Here,
+    we talk very briefly about how to run MPI jobs on a cluster.
+
     https://scicomp.aalto.fi/triton/tut/parallel-mpi/
   editlist:
   - start: 03:32:31
@@ -503,35 +517,38 @@
   - end: 03:40:55
 
 - output: day3-gpus.mkv
-  title: 3.7 GPU computing
+  title: 3.8 GPU computing
   description: >-
     GPUs, short for graphical processing unit, are massively-parallel
     processors that are optimized to perform parallel
     operations. Computations that might take days to run on CPUs, take
-    substantially less time on GPUs.  We discuss how to use them with Slurm
+    substantially less time on GPUs.  We discuss how to use them with
+    Slurm and what are some common pitfalls when running these
+    programs, but we don't go into detail about just how they are
+    programmed or anything like that.
 
     https://scicomp.aalto.fi/triton/tut/gpu/
   editlist:
   - start: 03:41:05
   - -: What's a GPU and why?
   - 03:45:35: 'Example: pi again but now with GPUs'
-  - 03:51:30: 'Common pitfall: GPU being bottlenecked by CPUs' 
+  - 03:51:30: 'Common pitfall: GPU being bottlenecked by CPUs'
   - 03:54:06: 'Common pitfall: Loading libraries incorrectly'
   - 03:55:51: 'Question: running several jobs on a single GPU'
   - 03:59:32: How to reserve specific GPUs
   - 04:00:21: Why you should maximize GPU efficiency
-  - 04:03:23: Avoiding CUDA issues.
+  - 04:03:23: Avoiding CUDA issues
   - 04:05:25: Keeping GPUs occupied when doing deep learning
   - 04:09:16: No exercises, still in queue
   - end: 04:09:41
 
 - output: day3-outro.mkv
-  title: 3.5 General Q&A and day 3 and workshop wrap-up
+  title: 3.9 General Q&A and day 3 and workshop wrap-up
   description: >-
     Wrap up of the workshop, including some hints about what to do
     next, our future plans, etc.
   editlist:
-  - start: 03:09:42
+  - start: 04:09:42
   - -: General Q&A
   - 04:11:18: Recommended tutorials for doing GPU calculations
   - 04:15:09: Numpy parallelization
@@ -540,6 +557,3 @@
   - 04:25:38: Most common mistakes with GPU programs
   - 04:26:31: Going through feedback
   - end: 04:32:35
-  
-  
-  
